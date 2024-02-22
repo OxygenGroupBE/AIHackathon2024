@@ -23,9 +23,7 @@ Stieven Vermoesen
 ## What problem does your project aim to solve? 
 Language difficulties
 
-# Solution Overview: 
-## What solution does your team propose? 
-  
+# Solution Overview:  
 ## Name for the solution :
 CopilotReminder
 
