@@ -36,19 +36,21 @@ codeunit 55162 "Get QOTD from Copilot"
 
         Quote := TmpText;
 
-        // OutStr.WriteText(TmpText);
-        // TempBlob.CreateInStream(InStr);
+        OutStr.WriteText(TmpText);
+        TempBlob.CreateInStream(InStr);
 
-        // TmpXmlBuffer.DeleteAll();
-        // TmpXmlBuffer.LoadFromStream(InStr);
+        TmpXmlBuffer.DeleteAll();
+        TmpXmlBuffer.LoadFromStream(InStr);
 
-        // Clear(OutStr);
-        // LineNo := 10000;
-        // if TmpXmlBuffer.FindSet() then
-        //     repeat
-        //         if TmpXmlBuffer.Path.ToLower().EndsWith('language') then
-        //             Quote := TmpXmlBuffer.GetValue();
-        //     until TmpXmlBuffer.Next() = 0;
+        Clear(OutStr);
+        LineNo := 10000;
+        if TmpXmlBuffer.FindSet() then
+            repeat
+                case TmpXmlBuffer.Path of
+                    '/quote/result':
+                        Quote := TmpXmlBuffer.Value;
+                end;
+            until TmpXmlBuffer.Next() = 0;
     end;
 
     local procedure GetFinalUserPrompt() FinalUserPrompt: Text
@@ -59,6 +61,8 @@ codeunit 55162 "Get QOTD from Copilot"
     local procedure GetSystemPrompt() SystemPrompt: Text
     begin
         SystemPrompt += 'The user will ask a quote, you need to give it.';
+        SystemPrompt += 'The output should be in xml, containing quote (use quote tag)';
+        SystemPrompt += 'Use quotes as a root level tag, use result as quote tag.';
         SystemPrompt += 'Do not use line breaks or other special characters in explanation.';
         SystemPrompt += 'Skip empty nodes.';
 
