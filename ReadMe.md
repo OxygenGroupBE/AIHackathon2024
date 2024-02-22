@@ -41,7 +41,7 @@ Stieven Vermoesen
 You'll find more information on the project itself, but here's an overview of all projects we worked on during the Hackathon.
 
 - [Business Central AI Studio](./BCAIStudio/readme.md)
-- [Customer Information Copilot](CustomerCopilot/Readme.md) 
+- [Customer Information by Copilot](CustomerCopilot/Readme.md) 
 - [Translation Copilot](TranslationCopilot/Readme.md) 
 - [Send Reminder mails with CoPilot](CoPilotReminder/readme.md) 
 - [Solve formulas with Copilot](CoPilotFormulas/readme.md) 

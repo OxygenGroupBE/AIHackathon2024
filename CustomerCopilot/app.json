@@ -1,10 +1,10 @@
 {
   "id": "692ada3e-06c2-4b68-a3c6-7e52d1fb5222",
-  "name": "Customer CoPilot",
+  "name": "Customer Information CoPilot",
   "publisher": "Oxygen Group",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
+  "brief": "Customer Information by Copilot",
+  "description": "Customer Information by Copilot",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
