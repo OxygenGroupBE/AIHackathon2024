@@ -40,11 +40,11 @@ You'll find more information on the project itself, but here's an overview of al
 
 - [BC AI Studio](./BCAIStudio/readme.md)
 - [Customer Information Copilot](CustomerCopilot\Readme.md) 
-- [Translation Copilot](./TranslationCopilot/Readme.md) 
-- [Create Reminder Emails](CoPilotReminder/Readme.md) 
-- [Verify Master Data](VerifyMasterData/Readme.md) 
-- [Formula Copilot](CustomerCopilot\Readme.md) 
-- [Quote of the Day](QuoteOfTheDay\Readme.md) 
+- [Translation Copilot](./TranslationCopilot/readme.md) 
+- [Create Reminder Emails](CoPilotReminder/readme.md) 
+- [Verify Master Data](VerifyMasterData/readme.md) 
+- [Formula Copilot](CustomerCopilot\readme.md) 
+- [Quote of the Day](QuoteOfTheDay\readme.md) 
 
 > **Note**: 
 All these projects are merely "Proof Of Concepts".  We had ideas, and we wanted to show how in our mind it could work as a Copilot feature in combination with LLM.
