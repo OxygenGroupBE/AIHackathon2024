@@ -84,7 +84,7 @@ page 55140 "Translate with Copilot"
 
     trigger OnOpenPage()
     begin
-        TranslationRequest := 'นี่เป็นการทดสอบ';
+        // TranslationRequest := 'นี่เป็นการทดสอบ'; // for test
         DiscoverLanguage();
         TranslateTo := 'English';
 
