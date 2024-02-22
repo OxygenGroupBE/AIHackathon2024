@@ -1,0 +1,16 @@
+#controlAddIn {
+    width: auto;
+    height: auto;
+    background-color: #f6f7f8;
+    padding: 8px;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Segoe UI", "Segoe WP", Segoe, device-segoe, Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 10.5pt !important;
+}
+
+textarea {
+    border: 1px solid #999999;
+    width: 100%;
+    height: 350px;
+}

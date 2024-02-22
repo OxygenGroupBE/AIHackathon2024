@@ -1,0 +1,16 @@
+#controlAddIn {
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    font-family: "Segoe UI", "Segoe WP", Segoe, device-segoe, Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 10.5pt;
+    display: inline;
+}
+
+body div {
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    font-family: "Segoe UI", "Segoe WP", Segoe, device-segoe, Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 12.5pt;
+}
