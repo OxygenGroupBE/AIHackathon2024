@@ -12,7 +12,9 @@
 ## Problem Statement
 *What problem does your project aim to solve?* 
 *(Briefly describe the customer or partner problem your project addresses)* 
-When exploring and testing the capabilities for BC Copilot, you need to play with the System and Userprompt very.
+
+When exploring and testing the capabilities for BC Copilot, you need to play with the System and Userprompt very often.
+Even a small word or a change in order can make a big difference in your results.
 As we didn't had access to the AI Studio of Microsoft, we needed a quick playground in BC itself.
 
 ## Solution Overview
@@ -26,10 +28,10 @@ As we didn't had access to the AI Studio of Microsoft, we needed a quick playgro
 * *Technical requirements* 
 * *Go to market strategy* 
 
-###Our solutions is name: 
+Our solutions is name: 
 AI Studio for BC
 
-###Main Features:
+Main Features:
 
 Interactive AI Playground: A virtual environment where developers can experiment and optimize their system prompts and user prompts before implementing changes in their code.
 History Control: Keeps a history of all attempts and iterations, allowing developers to track changes and revert to previous versions if necessary.
@@ -37,8 +39,7 @@ Real-time Feedback: Provides immediate feedback on prompt optimization, enabling
 Customization Options: Offers various customization options for prompts and parameters to tailor the AI model according to specific requirements.
 Analytics and Insights: Provides analytics and insights into prompt effectiveness and user interactions to drive informed decision-making.
 
-
-###Benefits:
+Benefits:
 Efficient Development Process: Allows developers to experiment and refine AI models without directly modifying the code, saving time and resources.
 Improved Accuracy: Enables developers to optimize prompts for better performance and user experience, leading to more accurate AI responses.
 Version Control: Maintains a history of iterations, ensuring transparency and enabling easy tracking of changes.
@@ -62,6 +63,7 @@ User Interface Design: We designed an intuitive and user-friendly interface with
 Our solution, is poised to have a positive impact on users and the community in several ways.
 
 Empowering Developers: The AI Studio empowers developers by providing them with a platform to experiment and optimize their AI models efficiently. By offering tools for prompt optimization, version control, and real-time feedback, developers can enhance the accuracy and performance of their AI systems, leading to better user experiences and outcomes.
+
 Fostering Innovation: By democratizing access to AI development tools and resources, the AI Studio fosters innovation within the developer community. Developers can freely explore new ideas, experiment with different approaches, and collaborate with peers, driving advancements in AI technology and applications.
 
 ## Project Continuation
