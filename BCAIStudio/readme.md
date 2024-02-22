@@ -32,6 +32,10 @@ Benefits:
 **Improved Accuracy**: Enables developers to optimize prompts for better performance and user experience, leading to more accurate AI responses.
 **Version Control**: Maintains a history of iterations, ensuring transparency and enabling easy tracking of changes.
 
+Some screenshots:
+
+![image-20240222230444805](../ReadMe.assets/image-20240222230444805.png)
+
 ## Accomplishments
 We successfully developed a functional prototype, showcasing the core features such as interactive prompt optimization, history control, and real-time feedback.
 We designed an intuitive and user-friendly interface with promptdialog, focusing on simplicity and ease of navigation to enhance the user experience.

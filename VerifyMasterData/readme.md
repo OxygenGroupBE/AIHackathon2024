@@ -28,6 +28,25 @@ Improved data accuracy and integrity through automated validation
 Enhanced efficiency as power users can focus on strategic tasks rather than routine checks
 Increased user satisfaction with a smoother and more reliable data management system
 
+Some screenshots:
+
+To use our solutions, you need to first make some configurations. Currently we support item, customer, vendor and contact tables. Per table you can config how many samples the system must give to copilot to do the verification. Next you also have the ability to skip unnecessary fields in the process. 
+
+![image-20240222230752664](../ReadMe.assets/image-20240222230752664.png)
+
+The process can currently be triggered from the card but the building blocks are there to plug it in elsewhere. 
+In this example copilot as found that the Description is usually filled in and the Search Description is wrong.
+
+![image-20240222231236547](../ReadMe.assets/image-20240222231236547.png)
+
+For this item we change the suggested Description and as you can see the Action will change. Next the Search Description must not be updated in the future so we decide to Delete and skip this.
+
+![image-20240222231651847](../ReadMe.assets/image-20240222231651847.png)
+
+And after we confirm the proposal the item is updated.
+
+![image-20240222231749685](../ReadMe.assets/image-20240222231749685.png)
+
 ## Accomplishments
 We achieved to develop a functional prototype, showcasing the core features. It implements automated data validation and verification processes, reducing manual workload. But it needs some more tweaking.
 
