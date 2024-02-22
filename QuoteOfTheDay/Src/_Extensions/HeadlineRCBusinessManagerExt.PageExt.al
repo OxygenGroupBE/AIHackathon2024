@@ -18,6 +18,11 @@ pageextension 55160 "HeadlineRCBusinessManager Ext" extends "Headline RC Busines
                     ApplicationArea = Basic, Suite;
                     Caption = 'Greeting headline';
                     Editable = false;
+
+                    trigger OnDrillDown()
+                    begin
+                        Message(QOTD);
+                    end;
                 }
             }
         }
