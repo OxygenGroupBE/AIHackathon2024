@@ -1,0 +1,32 @@
+{
+  "id": "c0fb8b84-40b1-4bcd-ae2a-10edb078f812",
+  "name": "Copilot Calculate Formula",
+  "publisher": "Astena",
+  "version": "1.0.0.0",
+  "brief": "Copilot Calculate Formula",
+  "description": "Copilot Calculate Formula",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [  ],
+  "screenshots": [],
+  "platform": "23.0.0.0",
+  "application": "23.1.0.0",
+  "idRanges": [
+    {
+      "from": 56000,
+      "to": 56999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "12.1",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
