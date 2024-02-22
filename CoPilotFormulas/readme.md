@@ -23,9 +23,6 @@ Stieven Vermoesen
 When you need to process calculation formulas in al it demands extensive develoment.
 
 # Solution Overview: 
-## What solution does your team propose? 
- 
-Provide a high-level overview of your project’s solution including: 
 ## Name for the solution :
 CopilotFormulas
  
