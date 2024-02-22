@@ -2,10 +2,22 @@
 # Team information:  
 Oxygen Group (Belgium)
 
-Eric Wauters (Waldo): Eric.Wauters@ifacto.be
-Gunter Peeters: Gunter.Peeters@ifacto.be
-Frank Neeckx: fn@astena.be
-Stieven Vermoesen: stv@astena.be
+Eric Wauters (waldo)
+
+    - Eric.wauters@ifacto.be
+
+Gunter Peeters
+
+    - Gunter.peeters@ifacto.be
+
+Frank Neeckx
+
+    - Fn@astena.be
+
+Stieven Vermoesen
+
+    - stv@astena.be
+
 
 # Problem Statement: 
 When you need to process calculation formulas in al it demands extensive develoment.
