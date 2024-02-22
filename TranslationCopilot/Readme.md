@@ -39,7 +39,7 @@ Nobody needs to be fluent in all languages.  The system can translate a text in 
 ## Materials: Prototype / Pitch / Images
 - GitHub with all the materials: [https://github.com/OxygenGroupBE/AIHackathon2024](https://github.com/OxygenGroupBE/AIHackathon2024)
 - GitHub URL to this specific app: [https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/TranslationCopilot](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/TranslationCopilot)
-- Video: [Zipped video](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/TranslationCopilot/Video)
+- Video: [https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/TranslationCopilot/Video](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/TranslationCopilot/Video)
 
 ## Comments
 This project is just a small part of all our contributions during the Hackathon.  

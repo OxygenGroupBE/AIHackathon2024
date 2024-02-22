@@ -34,7 +34,7 @@ Faster analyzing of customer data.  No setup.  User friendly overview of the dat
 ## Materials: Prototype / Pitch / Images
 - GitHub with all the materials: [https://github.com/OxygenGroupBE/AIHackathon2024](https://github.com/OxygenGroupBE/AIHackathon2024)
 - GitHub URL to this specific app: [https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/CustomerCopilot](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/CustomerCopilot)
-- Video: [Zipped video](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/CustomerCopilot/Video)
+- Video: [https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/CustomerCopilot/Video](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/CustomerCopilot/Video)
 
 ## Comments
 This project is just a small part of all our contributions during the Hackathon.  

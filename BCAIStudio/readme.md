@@ -54,7 +54,7 @@ The AI Studio offers a valuable platform for developers to experiment and optimi
 ## Materials: Prototype / Pitch / Images 
 - GitHub with all the materials: [https://github.com/OxygenGroupBE/AIHackathon2024](https://github.com/OxygenGroupBE/AIHackathon2024)
 - GitHub URL to this specific app: [https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/BCAIStudio](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/BCAIStudio)
-- Video: [Zipped video](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/BCAIStudio/Video)
+- Video: [https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/BCAIStudio/Video](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/BCAIStudio/Video)
 
 ## Comments
 This project is just a small part of all our contributions during the Hackathon.  
