@@ -25,11 +25,36 @@ levels:
 - second: generates a stronger reminder text
 - last: generates a text with legal clause
   
-### Benefits :
+
+Benefits :
+
 You get a draft in a language you don't need to fully understand.
 You can easily change the level of severity, and the language.
 
+Some screenshots:
+
+Creating a reminder for customer 30000
+
+![image-20240222214930853](readme.assets/image-20240222214930853.png)
+
+Customer has "English" as its language.
+
+Different levels of reminders to set the tone:
+
+![image-20240222215003654](readme.assets/image-20240222215003654.png)
+
+![image-20240222215010986](readme.assets/image-20240222215010986.png)
+
+Email the reminder:
+
+![image-20240222215108253](readme.assets/image-20240222215108253.png)
+
+For a French customer:
+
+![image-20240222215513781](readme.assets/image-20240222215513781.png)
+
 ## Accomplishments
+
 We have a better understanding of the translation capabilities of copilot, which is very powerful and interesting, but delicate.
 
 ## Impact 
