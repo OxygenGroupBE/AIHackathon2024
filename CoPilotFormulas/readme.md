@@ -23,18 +23,21 @@ CopilotFormulas
 calculating formulas with paramters, based an given parameter values
   
 ### Benefits :
-easy to calculate different formulas, you can easily change parameters, value, formulas, ... 
+It is easy to calculate different formulas.
+You cann easily change parameters, value, formulas, ... 
 
 ## Accomplishments
 Better understanding of how copilot handels different mathematical expressions
 
 ## Impact 
-*How will your solution positively impact users or the community?* 
-you can easily change parameters, value, formulas, ... 
+You don't need special development if you formula, parameters changes.
+
+You can easily change parameters, value, formulas, ... 
 
 ## Project Continuation
 *What are the essential requirements to continue developing this project beyond the hackathon?* 
-mayby a guideline of how copilot handles/converts certain mathematical symbols
+
+A helpfull thing will be more information of how copilot handles/converts certain mathematical symbols.
 
 ## Value Proposition 
 *What unique value does your solution bring?* 
