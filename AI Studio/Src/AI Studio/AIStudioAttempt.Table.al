@@ -33,6 +33,16 @@ table 53300 "AI Studio Attempt"
             Caption = 'Max. Tokens';
             InitValue = 2500;
         }
+        field(60; "Approximate Tokens"; Integer)
+        {
+            Caption = 'Approximate Tokens';
+            Editable = false;
+        }
+        field(70; "Precise Tokens"; Integer)
+        {
+            Caption = 'Precise Tokens';
+            Editable = false;
+        }
     }
 
     keys
@@ -96,5 +106,34 @@ table 53300 "AI Studio Attempt"
         Rec.CalcFields("Result");
         Rec.Result.CreateInStream(InStr);
         exit(TypeHelper.ReadAsTextWithSeparator(InStr, ''));
+    end;
+
+
+    [NonDebuggable]
+    procedure ApproximateTokenCount(Input: Text): Decimal
+    var
+        AverageWordsPerToken: Decimal;
+        TokenCount: Integer;
+        WordsInInput: Integer;
+    begin
+        AverageWordsPerToken := 0.6; // Based on OpenAI estimate
+        WordsInInput := Input.Split(' ', ',', '.', '!', '?', ';', ':', '/n').Count;
+        TokenCount := Round(WordsInInput / AverageWordsPerToken, 1);
+        exit(TokenCount);
+    end;
+
+    [NonDebuggable]
+    procedure PreciseTokenCount(Input: Text): Integer
+    var
+        RestClient: Codeunit "Rest Client";
+        Content: Codeunit "Http Content";
+        JContent: JsonObject;
+        JTokenCount: JsonToken;
+        Uri: Label 'https://azure-openai-tokenizer.azurewebsites.net/api/tokensCount', Locked = true;
+    begin
+        JContent.Add('text', Input);
+        Content.Create(JContent);
+        RestClient.Send("Http Method"::GET, Uri, Content).GetContent().AsJson().AsObject().Get('tokensCount', JTokenCount);
+        exit(JTokenCount.AsValue().AsInteger());
     end;
 }

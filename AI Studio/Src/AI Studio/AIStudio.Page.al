@@ -44,49 +44,6 @@ page 53300 "AI Studio"
         }
         // The Prompt area is where the user can provide input for your Copilot feature. The PromptOptions area should contain fields that have a limited set of options,
         // whereas the Prompt area can contain more structured and powerful controls, such as free text controls and subparts with grids.
-        area(Prompt)
-        {
-            field("Max. Tokens"; TempAIStudioAttempt."Max. Tokens")
-            {
-                Caption = 'Max. Tokens';
-                ApplicationArea = All;
-                trigger OnValidate()
-                begin
-                    CurrPage.Update();
-                end;
-            }
-            field("Temperature"; TempAIStudioAttempt."Temperature")
-            {
-                Caption = 'Temperature';
-                ApplicationArea = All;
-                trigger OnValidate()
-                begin
-                    CurrPage.Update();
-                end;
-            }
-            field(SystemPrompt; SystemPrompt)
-            {
-                Caption = 'System Prompt';
-                MultiLine = true;
-                ApplicationArea = All;
-
-                trigger OnValidate()
-                begin
-                    CurrPage.Update();
-                end;
-            }
-            field(UserPrompt; UserPrompt)
-            {
-                Caption = 'User Prompt';
-                MultiLine = true;
-                ApplicationArea = All;
-
-                trigger OnValidate()
-                begin
-                    CurrPage.Update();
-                end;
-            }
-        }
 
         // The Content area is the output of the Copilot feature. This can contain fields or parts, so that you can have all the flexibility you need to
         // show the user the suggestion that your Copilot feature generated.
@@ -110,22 +67,37 @@ page 53300 "AI Studio"
             }
             group(Group)
             {
-                ShowCaption = false;
+                Caption = 'Prompts';
                 group(SystemPrompGiven)
                 {
-                    Caption = 'System Prompt';
+                    Caption = 'System';
                     field(SystemPrompGivenInput; SystemPrompt)
                     {
                         ApplicationArea = All;
+                        MultiLine = true;
+                        ShowCaption = false;
                     }
                 }
                 group(UserPrompGiven)
                 {
-                    Caption = 'User Prompt';
+                    Caption = 'User';
                     field(UserPrompGivenInput; UserPrompt)
                     {
                         ApplicationArea = All;
+                        MultiLine = true;
+                        ShowCaption = false;
                     }
+                }
+            }
+            group(Count)
+            {
+                field("Approximate Tokens"; Rec."Approximate Tokens")
+                {
+                    Caption = 'Approximate Tokens';
+                }
+                field("Precise Tokens"; Rec."Precise Tokens")
+                {
+                    Caption = 'Precise Tokens';
                 }
             }
             group(ResultControl)
@@ -202,8 +174,11 @@ page 53300 "AI Studio"
         Rec.TransferFields(TempAIStudioAttempt);
         Rec.SetSystemPrompt(SystemPrompt);
         Rec.SetUserPrompt(UserPrompt);
+        Rec."Approximate Tokens" := Rec.ApproximateTokenCount(SystemPrompt + UserPrompt);
+        Rec."Precise Tokens" := Rec.PreciseTokenCount(SystemPrompt + UserPrompt);
         Rec.Attempt := NoOfAttempts;
         Rec.Insert();
+        Commit();
 
         GenerateAI.SetPrompt(Rec);
 
