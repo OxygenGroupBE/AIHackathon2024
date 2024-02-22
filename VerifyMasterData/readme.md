@@ -45,7 +45,7 @@ Our solution help users to make better and complete data and gives powerusers mo
 
 GitHub with all the materials: [Oxygen Group - AI Hackathon 2024 (github.com)](https://github.com/OxygenGroupBE/AIHackathon2024)
 
-GitHub URL to this specific app: [Verify Master Data on Github]('https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/VerifyMasterData')
+GitHub URL to this specific app: [Verify Master Data on Github](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/VerifyMasterData)
 
 *Provide the URL to your prototype, GitHub repository, website, or any relevant materials.* 
 *(Insert link below or send via email with materials to HackBCAI@microsoft.com)* 
