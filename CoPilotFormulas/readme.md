@@ -1,59 +1,59 @@
+# CoPilot Formulas
 
-# Team information:  
-Oxygen Group (Belgium)
+## Team information  
 
-Eric Wauters (waldo)
+**Oxygen Group (Belgium)**
 
-    - Eric.wauters@ifacto.be
+- Eric Wauters (waldo): Eric.Wauters@ifacto.be
+- Gunter Peeters: Gunter.Peeters@ifacto.be
+- Frank Neeckx: fn@astena.be
+- Stieven Vermoesen: stv@astena.be
 
-Gunter Peeters
+## Problem Statement
+*What problem does your project aim to solve?* 
+When you need to process calculation formulas in al it demands extensive develoment. 
 
-    - Gunter.peeters@ifacto.be
-
-Frank Neeckx
-
-    - Fn@astena.be
-
-Stieven Vermoesen
-
-    - stv@astena.be
-
-
-# Problem Statement: 
-When you need to process calculation formulas in al it demands extensive develoment.
-
-# Solution Overview: 
-## Name for the solution :
+## Solution Overview
+Dynamicaly calculation formulas, using the user his imput.
+  
+### Name for the solution :
 CopilotFormulas
  
-## Main features :
+### Main features :
 calculating formulas with paramters, based an given parameter values
   
-## Benefits :
-easy to calculate different formulas, you can easily change parameters, value, formulas, ... 
+### Benefits :
+It is easy to calculate different formulas.
+You cann easily change parameters, value, formulas, ... 
 
-# Accomplishments: 
-## #What has your team achieved during the hackathon period? 
+## Accomplishments
 Better understanding of how copilot handels different mathematical expressions
 
-# Impact: 
-## How will your solution positively impact users or the community? 
-you can easily change parameters, value, formulas, ... 
- 
+## Impact 
+You don't need special development if you formula, parameters changes.
 
-# Project Continuation: 
-## What are the essential requirements to continue developing this project beyond the hackathon? 
-mayby a guideline of how copilot handles/converts certain mathematical symbols
+You can easily change parameters, value, formulas, ... 
 
-# Value Proposition: 
-## What unique value does your solution bring? 
-faster and accuartly caculation different formulas with different parameters 
+## Project Continuation
+*What are the essential requirements to continue developing this project beyond the hackathon?* 
 
-#Materials: Prototype / Pitch / Images 
-##Provide the URL to your prototype, GitHub repository, website, or any relevant materials. 
-(Insert link below or send via email with materials to HackBCAI@microsoft.com) 
- 
+A helpfull thing will be more information of how copilot handles/converts certain mathematical symbols.
 
-#Comments: 
-##Do you have any additional comments or feedback for your submission? 
+## Value Proposition 
+*What unique value does your solution bring?* 
 
+Faster calculation of formulas with parameters. Easy setup.
+
+## Materials: Prototype / Pitch / Images 
+GitHub with all the materials: [Oxygen Group - AI Hackathon 2024 (github.com)](https://github.com/OxygenGroupBE/AIHackathon2024)
+
+GitHub URL to this specific app: [BC AI Studio on Github]('https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/AI Studio')
+
+*Provide the URL to your prototype, GitHub repository, website, or any relevant materials.* 
+*(Insert link below or send via email with materials to HackBCAI@microsoft.com)* 
+
+## Comments
+
+This project is just a small part of all our contributions during the Hackathon.  
+
+Here, you can find the complete overview:  [Contributions of the Oxygen Group for the BC AI Hackathon 2024 on GitHub](https://github.com/OxygenGroupBE/AIHackathon2024/blob/main/ReadMe.md)

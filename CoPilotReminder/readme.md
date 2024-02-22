@@ -1,65 +1,65 @@
+# CoPilot Reminder
 
-# Team information:  
-Oxygen Group (Belgium)
+## Team information  
 
-Eric Wauters (waldo)
+**Oxygen Group (Belgium)**
 
-    - Eric.wauters@ifacto.be
+- Eric Wauters (waldo): Eric.Wauters@ifacto.be
+- Gunter Peeters: Gunter.Peeters@ifacto.be
+- Frank Neeckx: fn@astena.be
+- Stieven Vermoesen: stv@astena.be
 
-Gunter Peeters
+## Problem Statement
+*What problem does your project aim to solve?* 
+Language difficulties. flexibility in different mail body's.
 
-    - Gunter.peeters@ifacto.be
-
-Frank Neeckx
-
-    - Fn@astena.be
-
-Stieven Vermoesen
-
-    - stv@astena.be
-
-
-# Problem Statement: 
-## What problem does your project aim to solve? 
-Language difficulties
-
-# Solution Overview:  
-## Name for the solution :
-CopilotReminder
-
-## Industry / target market : 
-accounting department
+## Solution Overview
+Dynamicaly generate reminder texts based on the reminder level input and the customer language. 
+  
+### Name for the solution :
+Copilot Reminder
  
-## Main features :
+### Main features :
 Generate a reminder text based on the customer language and change level of severity
+
 levels:
+
 first: generates a polite reminder text
+
 second: generates a stronger reminder text
+
 last: generates a text with legal clause
   
-## Benefits :
+### Benefits :
 You get a draft in a language you don't need to fully understand.
- 
-# Accomplishments: 
-## What has your team achieved during the hackathon period? 
+
+## Accomplishments
 We have a better understanding of the translation capebilities of copilot
 
-# Impact: 
-## How will your solution positively impact users or the community? 
-You get a draft of a transleted reminder that you cann send to the customer in the customer his language. If nnot the language is English
- 
-# Project Continuation: 
-## What are the essential requirements to continue developing this project beyond the hackathon? 
+## Impact 
+You get a draft of a transleted reminder that you cann send to the customer in the customer his language. If not the language should be English
 
-#Value Proposition: 
-##What unique value does your solution bring? 
-(Explain why your project stands out) 
- 
+## Project Continuation
+*What are the essential requirements to continue developing this project beyond the hackathon?* 
 
-#Materials: Prototype / Pitch / Images 
-##Provide the URL to your prototype, GitHub repository, website, or any relevant materials. 
-(Insert link below or send via email with materials to HackBCAI@microsoft.com) 
- 
+A helpfull thing would be more information of some "key words" in the promptline. What are the effect of those words, ... Some kind of prompt coding guidelines.
 
-#Comments: 
-##Do you have any additional comments or feedback for your submission? 
+
+## Value Proposition 
+*What unique value does your solution bring?* 
+
+Faster generating differnet reminder texts. Easy setup.
+
+## Materials: Prototype / Pitch / Images 
+GitHub with all the materials: [Oxygen Group - AI Hackathon 2024 (github.com)](https://github.com/OxygenGroupBE/AIHackathon2024)
+
+GitHub URL to this specific app: [BC AI Studio on Github]('https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/AI Studio')
+
+*Provide the URL to your prototype, GitHub repository, website, or any relevant materials.* 
+*(Insert link below or send via email with materials to HackBCAI@microsoft.com)* 
+
+## Comments
+
+This project is just a small part of all our contributions during the Hackathon.  
+
+Here, you can find the complete overview:  [Contributions of the Oxygen Group for the BC AI Hackathon 2024 on GitHub](https://github.com/OxygenGroupBE/AIHackathon2024/blob/main/ReadMe.md)
