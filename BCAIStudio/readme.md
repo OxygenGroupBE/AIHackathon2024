@@ -4,16 +4,14 @@
 
 **Oxygen Group (Belgium)**
 
-Eric Wauters (waldo): Eric.Wauters@ifacto.be
-Gunter Peeters: Gunter.Peeters@ifacto.be
-Frank Neeckx: fn@astena.be
-Stieven Vermoesen: stv@astena.be
+- Eric Wauters (waldo): Eric.Wauters@ifacto.be
+- Gunter Peeters: Gunter.Peeters@ifacto.be
+- Frank Neeckx: fn@astena.be
+- Stieven Vermoesen: stv@astena.be
 
 ## Problem Statement
 *What problem does your project aim to solve?* 
 *(Briefly describe the customer or partner problem your project addresses)* 
-
- 
 
 ## Solution Overview
 *What solution does your team propose?* 
@@ -36,11 +34,11 @@ Stieven Vermoesen: stv@astena.be
 *How will your solution positively impact users or the community?* 
 *(Discuss the potential benefits and outcomes)* 
 
-## *Project Continuation
+## Project Continuation
 *What are the essential requirements to continue developing this project beyond the hackathon?* 
 *(Consider technical, resource, and collaboration needs)* 
 
-## *Value Proposition 
+## Value Proposition 
 *What unique value does your solution bring?* 
 *(Explain why your project stands out)* 
 
