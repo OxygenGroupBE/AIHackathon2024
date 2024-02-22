@@ -35,25 +35,21 @@ calculating formulas with paramters, based an given parameter values
 ## Benefits :
 easy to calculate different formulas, you can easily change parameters, value, formulas, ... 
 
-#Accomplishments: 
-#What has your team achieved during the hackathon period? 
-(Highlight key milestones, features, or progress made) 
+# Accomplishments: 
+## #What has your team achieved during the hackathon period? 
 Better understanding of how copilot handels different mathematical expressions
 
-#Impact: 
-##How will your solution positively impact users or the community? 
-(Discuss the potential benefits and outcomes) 
-you easaly change the formulas and parameters
+# Impact: 
+## How will your solution positively impact users or the community? 
+you can easily change parameters, value, formulas, ... s
  
 
-#Project Continuation: 
-##What are the essential requirements to continue developing this project beyond the hackathon? 
-(Consider technical, resource, and collaboration needs) 
+# Project Continuation: 
+## What are the essential requirements to continue developing this project beyond the hackathon? 
 mayby a guideline of how copilot handles/converts certain mathematical symbols
 
-#Value Proposition: 
-##What unique value does your solution bring? 
-(Explain why your project stands out) 
+# Value Proposition: 
+## What unique value does your solution bring? 
 faster and accuartly caculation different formulas with different parameters 
 
 #Materials: Prototype / Pitch / Images 
