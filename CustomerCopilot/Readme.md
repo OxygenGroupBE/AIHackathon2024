@@ -33,6 +33,8 @@ A customer with regular payments
 Better understanding of how copilot handles different data sources.
 Better understanding in how to analyze data (and realizing it's not that easy).
 
+The solution can generate information based on order and payment information.  The info is displayed in a factbox on the customer list.
+
 ## Impact
 You don't need to analyze the data yourself, and you get a user friendly overview of the customer data.
 

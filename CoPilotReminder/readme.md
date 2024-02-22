@@ -57,6 +57,8 @@ For a French customer:
 
 We have a better understanding of the translation capabilities of copilot, which is very powerful and interesting, but delicate.
 
+The system can now generate a unique, professional email, in any language of the customer, and send it.
+
 ## Impact 
 You get a draft of a transleted reminder that you can send to the customer in the customer his language. If not the language should be English.
 

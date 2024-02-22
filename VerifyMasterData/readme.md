@@ -48,7 +48,7 @@ And after we confirm the proposal the item is updated.
 ![image-20240222231749685](../ReadMe.assets/image-20240222231749685.png)
 
 ## Accomplishments
-We achieved to develop a functional prototype, showcasing the core features. It implements automated data validation and verification processes, reducing manual workload. But it needs some more tweaking.
+We achieved to develop a functional prototype, showcasing the core features. It implements automated data validation and verification processes, reducing manual workload. It might need some more tweaking, but the current prompting seems to generate very useful data most of the time already.
 
 ## Impact 
 Our solution will save time and effort for users through automation.

@@ -25,6 +25,8 @@ Some screenshots:
 ## Accomplishments
 We successfully developed a functional prototype, giving the user a boost to start the day.
 
+We implemented the quote in the headline-feature of the Business Manager Role Center.
+
 ## Impact 
 By implementing a "Quote of the Day" feature in the role center of Business Central, users will start their day with a positive and motivational message, fostering a more uplifting and engaging work environment.
 
