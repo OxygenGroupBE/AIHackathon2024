@@ -41,7 +41,7 @@ Better understanding of how copilot handels different mathematical expressions
 
 # Impact: 
 ## How will your solution positively impact users or the community? 
-you can easily change parameters, value, formulas, ... s
+you can easily change parameters, value, formulas, ... 
  
 
 # Project Continuation: 
