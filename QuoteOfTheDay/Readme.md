@@ -37,7 +37,7 @@ There is nothing better than a happy employee. And who don't like to make anothe
 ## Materials: Prototype / Pitch / Images 
 - GitHub with all the materials: [https://github.com/OxygenGroupBE/AIHackathon2024](https://github.com/OxygenGroupBE/AIHackathon2024)
 - GitHub URL to this specific app: [https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/QuoteOfTheDay](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/QuoteOfTheDay)
-- Video: [https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/BCAIStudio/Video](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/BCAIStudio/Video)
+- Video: [https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/QuoteOfTheDay/Video](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/QuoteOfTheDay/Video)
 
 ## Comments
 This project is just a small part of all our contributions during the Hackathon.  
