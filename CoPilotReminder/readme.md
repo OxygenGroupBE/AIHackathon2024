@@ -20,21 +20,21 @@ Stieven Vermoesen: stv@astena.be
 ##What solution does your team propose? 
  
 Provide a high-level overview of your project’s solution including: 
-* Name for the solution
---- CopilotReminder
+* Name for the solution :
+CopilotReminder
 
-* Industry / target market
---- accounting department
+* Industry / target market : 
+accounting department
  
-* Main features
-#Generate a reminder text based on the customer language and the level of severity.
---- levels:
---- first: generates a polite reminder text
---- second: generates a stronger reminder text
---- last: generates a text with legal clause
+* Main features :
+Generate a reminder text based on the customer language and change level of severity
+levels:
+first: generates a polite reminder text
+second: generates a stronger reminder text
+last: generates a text with legal clause
   
-* Benefits
---- You get a draft in a language you don't need to fully understand.
+* Benefits :
+You get a draft in a language you don't need to fully understand.
 
 * Technical requirements 
 * Go to market strategy 
