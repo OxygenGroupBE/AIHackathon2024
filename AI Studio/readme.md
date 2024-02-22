@@ -48,7 +48,7 @@ Stieven Vermoesen: stv@astena.be
 
 GitHub with all the materials: [Oxygen Group - AI Hackathon 2024 (github.com)](https://github.com/OxygenGroupBE/AIHackathon2024)
 
-GitHub URL to this specific app: [BC AI Studio on Github]("https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/AI Studio")
+GitHub URL to this specific app: [BC AI Studio on Github]('https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/AI Studio')
 
 *Provide the URL to your prototype, GitHub repository, website, or any relevant materials.* 
 *(Insert link below or send via email with materials to HackBCAI@microsoft.com)* 
