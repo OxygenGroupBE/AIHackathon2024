@@ -1,4 +1,4 @@
-# Business Central AI Studio
+# AI Studio for Business Central
 
 ## Team information  
 
