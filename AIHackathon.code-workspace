@@ -4,6 +4,9 @@
 			"path": "AIStudio"
 		},
 		{
+			"path": "VerifyMasterData"
+		},		
+		{
 			"path": "CustomerCopilot"
 		},
 		{
