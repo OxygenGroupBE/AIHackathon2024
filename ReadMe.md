@@ -28,13 +28,13 @@ Frank Neeckx
 
     - Fn@astena.be
     - Development lead
-    - Astena – MPN 5256912
+    - Astena
     - Belgium
 
 Stieven Vermoesen
 
     - Development Consultant
-    - Astena – MPN 5256912
+    - Astena
     - Belgium
 
 ## Projects
