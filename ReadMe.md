@@ -42,7 +42,7 @@ You'll find more information on the project itself, but here's an overview of al
 - [Customer Information Copilot](CustomerCopilot\Readme.md) 
 - [Translation Copilot](./TranslationCopilot/readme.md) 
 - [Create Reminder Emails](CoPilotReminder/readme.md) 
-- [Verify Master Data](VerifyMasterData\readme.md) 
+- [Verify Master Data](VerifyMasterData/readme.md) 
 - [Formula Copilot](CustomerCopilot\readme.md) 
 - [Quote of the Day](QuoteOfTheDay\readme.md) 
 
