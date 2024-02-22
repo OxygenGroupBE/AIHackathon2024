@@ -21,12 +21,11 @@ Stieven Vermoesen
 
 # Problem Statement: 
 ## What problem does your project aim to solve? 
- 
+Language difficulties
 
 # Solution Overview: 
 ## What solution does your team propose? 
- 
-Provide a high-level overview of your project’s solution including: 
+  
 ## Name for the solution :
 CopilotReminder
 
