@@ -46,7 +46,7 @@ You'll find more information on the project itself, but here's an overview of al
 - [Send Reminder mails with CoPilot](CoPilotReminder/readme.md) 
 - [Solve formulas with Copilot](CoPilotFormulas/readme.md) 
 - [Verify Master Data](VerifyMasterData/readme.md) 
-- [Quote of the Day](QuoteOfTheDay\readme.md) 
+- [Quote of the Day](QuoteOfTheDay/readme.md) 
 
 > **Note**: 
 All these projects are merely "Proof Of Concepts".  We had ideas, and we wanted to show how in our mind it could work as a Copilot feature in combination with LLM.
