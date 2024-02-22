@@ -1,8 +1,6 @@
 # AI Hackathon - Oxygen Group
 
-<img style="float: right;" width=200 src="./ReadMe.assets/Oxygen.svg">
-
-<img style="float: right;" width=200 src="./ReadMe.assets/40C95EDB-C7C4-4F19-81B1-2744FEDE1530.GIF">
+<img width=200 src="./ReadMe.assets/Oxygen.svg"> <img width=200 src="./ReadMe.assets/40C95EDB-C7C4-4F19-81B1-2744FEDE1530.GIF">
 
 This repository represents the different apps we created as part of the AI Hackathon for Business Central 2024.
 
