@@ -1,6 +1,8 @@
 # AI Hackathon - Oxygen Group
 
-![AIHackathonGif](./ReadMe.assets/40C95EDB-C7C4-4F19-81B1-2744FEDE1530.GIF)
+<img style="float: right;" width=200 src="./ReadMe.assets/Oxygen.svg">
+
+<img style="float: right;" width=200 src="./ReadMe.assets/40C95EDB-C7C4-4F19-81B1-2744FEDE1530.GIF">
 
 This repository represents the different apps we created as part of the AI Hackathon for Business Central 2024.
 
@@ -42,7 +44,7 @@ You'll find more information on the project itself, but here's an overview of al
 
 - [Business Central AI Studio](./BCAIStudio/readme.md)
 - [Customer Information by Copilot](CustomerCopilot/Readme.md) 
-- [Translation Copilot](TranslationCopilot/Readme.md) 
+- [Translate with Copilot](TranslationCopilot/Readme.md) 
 - [Send Reminder mails with CoPilot](CoPilotReminder/readme.md) 
 - [Solve formulas with Copilot](CoPilotFormulas/readme.md) 
 - [Verify Master Data](VerifyMasterData/readme.md) 
