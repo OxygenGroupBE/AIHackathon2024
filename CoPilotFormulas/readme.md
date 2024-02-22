@@ -21,20 +21,13 @@ Stieven Vermoesen: stv@astena.be
  
 Provide a high-level overview of your project’s solution including: 
 * Name for the solution :
-CopilotReminder
-
-* Industry / target market : 
-accounting department
+CopilotFormulas
  
 * Main features :
-Generate a reminder text based on the customer language and change level of severity
-levels:
-first: generates a polite reminder text
-second: generates a stronger reminder text
-last: generates a text with legal clause
+calculating formulas with paramters, based an given parameter values
   
 * Benefits :
-You get a draft in a language you don't need to fully understand.
+easy to calculate different formulas
 
 * Technical requirements 
 * Go to market strategy 
@@ -43,23 +36,23 @@ You get a draft in a language you don't need to fully understand.
 #Accomplishments: 
 #What has your team achieved during the hackathon period? 
 (Highlight key milestones, features, or progress made) 
-We have a better understanding of the translation capebilities of copilot
+Better understanding of how copilot handels different mathematical expressions
 
 #Impact: 
 ##How will your solution positively impact users or the community? 
 (Discuss the potential benefits and outcomes) 
---- You get a draft of a transleted reminder that you cann send to the customer in his language
+you easaly change the formulas and parameters
  
 
 #Project Continuation: 
 ##What are the essential requirements to continue developing this project beyond the hackathon? 
 (Consider technical, resource, and collaboration needs) 
-
+mayby a guideline of how copilot handles/converts certain mathematical symbols
 
 #Value Proposition: 
 ##What unique value does your solution bring? 
 (Explain why your project stands out) 
- 
+faster and accuartly caculation different formulas with different parameters 
 
 #Materials: Prototype / Pitch / Images 
 ##Provide the URL to your prototype, GitHub repository, website, or any relevant materials. 
@@ -68,3 +61,4 @@ We have a better understanding of the translation capebilities of copilot
 
 #Comments: 
 ##Do you have any additional comments or feedback for your submission? 
+
