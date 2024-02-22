@@ -4,7 +4,7 @@
 
 This repository represents the different apps we created as part of the AI Hackathon for Business Central 2024.
 
-More info on : [the Oxygen Group](https://www.oxygengroup.be/en)
+More info on [the Oxygen Group](https://www.oxygengroup.be/en).
 
 ## Group members
 

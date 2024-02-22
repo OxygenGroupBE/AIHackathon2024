@@ -18,6 +18,24 @@ This new module uses copilot to figure out the formula, and calculate the result
 Name: Formulas with CoPilot
 Main features: understanding formulas, and calculate result by providing parameters with values. 
 
+Some screenshots:
+
+A simple setup with formulas and parameters
+
+![image-20240222213010475](readme.assets/image-20240222213010475.png)
+
+Obviously, the point is that we can handle any formula - and this is merely a test-page, not really "functionality" as such.
+
+The prompt:
+
+![image-20240222213139496](readme.assets/image-20240222213139496.png)
+
+The calculation:
+
+![image-20240222213207647](readme.assets/image-20240222213207647.png)
+
+The proof of concept works - now we would be able to implement this in real life scenarios.
+
 ## Accomplishments
 Better understanding of how copilot handles different mathematical expressions.
 Conclusion: it's not perfect, but pretty good.  When implemented in a framework, it can be a very usefull tool.
