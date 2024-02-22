@@ -38,13 +38,13 @@ Stieven Vermoesen
 ## Projects
 You'll find more information on the project itself, but here's an overview of all projects we worked on during the Hackathon.
 
-- [BC AI Studio](./AI%20Studio/readme.md)
-- [Customer Information]("./Customer Copilot/Readme.md")
+- [BC AI Studio](./BCAIStudio/readme.md)
+- [Customer Information]("./CustomerCopilot/Readme.md")
 - [Translation Copilot](./TranslationCopilot/Readme.md) 
-- Create Reminder Emails
+- [Create Reminder Emails](CoPilotReminder\readme.md) 
 - Verify Master Data
-- Formula Copilot
-- Quote of the Day
+- [Formula Copilot](CustomerCopilot\Readme.md) 
+- [Quote of the Day](QuoteOfTheDay\Readme.md) 
 
 > **Note**: 
 All these projects are merely "Proof Of Concepts".  We had ideas, and we wanted to show how in our mind it could work as a Copilot feature in combination with LLM.
