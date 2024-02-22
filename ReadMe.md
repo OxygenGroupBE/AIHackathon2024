@@ -6,6 +6,8 @@ More info on : [the Oxygen Group](https://www.oxygengroup.be/en)
 
 ## Group members
 
+**Oxygen Group (Belgium)**
+
 Eric Wauters (waldo)
 
     - Eric.wauters@ifacto.be
@@ -44,5 +46,5 @@ You'll find more information on the project itself, but here's an overview of al
 - Formula Copilot
 - Quote of the Day
 
-> **Note**
+> **Note**: 
 All these projects are merely "Proof Of Concepts".  We had ideas, and we wanted to show how in our mind it could work as a Copilot feature in combination with LLM.
