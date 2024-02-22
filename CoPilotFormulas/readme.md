@@ -15,6 +15,7 @@ When you need to process calculation formulas in AL it demands extensive develom
 ## Solution Overview
 This new module uses copilot to figure out the formula, and calculate the result. The module is intended to be an API, for other functionalities to benefit from it.
 
+Name: Formulas with CoPilot
 Main features: understanding formulas, and calculate result by providing parameters with values. 
 
 ## Accomplishments

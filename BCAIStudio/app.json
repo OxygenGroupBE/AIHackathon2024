@@ -1,10 +1,10 @@
 {
   "id": "92ee70ad-ffeb-46c5-a6c1-1ad542b86404",
-  "name": "Business Central Copilot AI Studio",
+  "name": "Business Central AI Studio",
   "publisher": "Oxygen Group",
   "version": "1.0.0.0",
-  "brief": "A simple example with Copilot demos.",
-  "description": "This is a demo extension with some sample Copilot experiences, and should not be used in production.",
+  "brief": "Efficient tool to optimize your prompts.",
+  "description": "Efficient tool to optimize your prompts.  It should not be used in production.",
   "privacyStatement": "https://go.microsoft.com/fwlink/?LinkId=724009",
   "EULA": "https://go.microsoft.com/fwlink/?linkid=2009120",
   "help": "https://go.microsoft.com/fwlink/?linkid=2104024",

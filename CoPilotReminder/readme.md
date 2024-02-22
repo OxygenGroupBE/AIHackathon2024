@@ -14,7 +14,9 @@ When you need to send reminders to customers, the mails sound too much the same.
 
 ## Solution Overview
 Dynamicaly generate reminder texts based on the reminder level input and the customer language. 
-  
+
+Name: Reminder mails with CoPilot
+
 Main features: 
 Generate a reminder text based on the customer language and change level of severity
 
