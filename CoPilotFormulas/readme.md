@@ -1,8 +1,5 @@
 
-#Team information:  
-##Please provide your team members' email addresses as indicated in the registration email. 
-(This will allow us to identify your company, team members, names, and locations) 
-
+# Team information:  
 Oxygen Group (Belgium)
 
 Eric Wauters (Waldo): Eric.Wauters@ifacto.be
@@ -10,13 +7,10 @@ Gunter Peeters: Gunter.Peeters@ifacto.be
 Frank Neeckx: fn@astena.be
 Stieven Vermoesen: stv@astena.be
 
-#Problem Statement: 
-##What problem does your project aim to solve? 
-(Briefly describe the customer or partner problem your project addresses) 
+# Problem Statement: 
+When you need to process calculation formulas in al it demands extensive develoment.
 
- 
-
-#Solution Overview: 
+# Solution Overview: 
 ##What solution does your team propose? 
  
 Provide a high-level overview of your project’s solution including: 
