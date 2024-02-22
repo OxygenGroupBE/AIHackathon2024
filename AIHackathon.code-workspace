@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "CustomerPilot"
+		},
+		{
+			"path": "TranslationCopilot"
+		},
+		{
+			"path": "../AI Hackathon"
+		}
+	],
+	"settings": {}
+}
