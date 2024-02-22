@@ -27,8 +27,8 @@ Provide a high-level overview of your project’s solution including:
 --- accounting department
  
 * Main features
---- Generate a reminder text based on the customer language and the level of severity.
---- levels: 
+#Generate a reminder text based on the customer language and the level of severity.
+--- levels:
 --- first: generates a polite reminder text
 --- second: generates a stronger reminder text
 --- last: generates a text with legal clause
