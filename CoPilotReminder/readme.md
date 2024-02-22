@@ -21,10 +21,10 @@ Stieven Vermoesen: stv@astena.be
  
 Provide a high-level overview of your project’s solution including: 
 * Name for the solution
-CopilotReminder
+ CopilotReminder
 
 Industry / target market
-accounting department
+ accounting department
  
 * Main features
 Generate a reminder text based on the customer language and the level of severity.
