@@ -1,7 +1,7 @@
 {
   "id": "e21b925c-ac10-4e79-a048-d6246e7dee81",
   "name": "Copilot generate reminder",
-  "publisher": "Astena",
+  "publisher": "Oxygen Group",
   "version": "0.9.0.0",
   "brief": "Copilot generate reminder",
   "description": "Copilot generate reminder",
@@ -10,7 +10,7 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [  ],
+  "dependencies": [],
   "screenshots": [],
   "platform": "23.0.0.0",
   "application": "23.1.0.0",
