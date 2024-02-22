@@ -40,4 +40,4 @@ Faster calculation of formulas with parameters. Easy setup. Very flexible, confi
 ## Comments
 This project is just a small part of all our contributions during the Hackathon.  
 
-Here, you can find the complete overview:  [Contributions of the Oxygen Group for the BC AI Hackathon 2024 on GitHub](https://github.com/OxygenGroupBE/AIHackathon2024/blob/main/ReadMe.md)
+Here, you can find the complete overview:  [https://github.com/OxygenGroupBE/AIHackathon2024/blob/main/ReadMe.md](https://github.com/OxygenGroupBE/AIHackathon2024/blob/main/ReadMe.md)

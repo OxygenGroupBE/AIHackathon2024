@@ -43,9 +43,9 @@ You'll find more information on the project itself, but here's an overview of al
 - [BC AI Studio](./BCAIStudio/readme.md)
 - [Customer Information Copilot](CustomerCopilot/Readme.md) 
 - [Translation Copilot](TranslationCopilot/Readme.md) 
-- [Create Reminder Emails](CoPilotReminder/readme.md) 
+- [Send Reminder mails with CoPilot](CoPilotReminder/readme.md) 
+- [Solve formulas with Copilot](CoPilotFormulas/readme.md) 
 - [Verify Master Data](VerifyMasterData/readme.md) 
-- [Formula Copilot](CoPilotFormulas/readme.md) 
 - [Quote of the Day](QuoteOfTheDay\readme.md) 
 
 > **Note**: 
