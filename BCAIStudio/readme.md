@@ -32,8 +32,9 @@ Benefits:
 **Improved Accuracy**: Enables developers to optimize prompts for better performance and user experience, leading to more accurate AI responses.
 **Version Control**: Maintains a history of iterations, ensuring transparency and enabling easy tracking of changes.
 
-Some screenshots:
+Here, you can find a video: [https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/BCAIStudio/Video](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/BCAIStudio/Video) 
 
+Some screenshots:
 ![image-20240222230444805](../ReadMe.assets/image-20240222230444805.png)
 
 ## Accomplishments
@@ -56,7 +57,7 @@ The AI Studio offers a valuable platform for developers to experiment and optimi
 ## Materials: Prototype / Pitch / Images 
 - GitHub with all the materials: [https://github.com/OxygenGroupBE/AIHackathon2024](https://github.com/OxygenGroupBE/AIHackathon2024)
 - GitHub URL to this specific app: [https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/BCAIStudio](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/BCAIStudio)
-- Video: [Zipped video](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/BCAIStudio/Video)
+- Video: [https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/BCAIStudio/Video](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/BCAIStudio/Video)
 
 ## Comments
 This project is just a small part of all our contributions during the Hackathon.  

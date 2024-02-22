@@ -18,6 +18,17 @@ This new module uses copilot to figure out the customer information, and present
 Name: Customer Information CoPilot
 Main features: understanding customer data, like customer ledger entries, and present it in a user friendly way.
 
+Some screenshots:
+
+The Customer info factbox on the top right
+
+![image-20240222231519873](Readme.assets/image-20240222231519873.png)
+
+A customer with regular payments
+
+![image-20240222231545197](Readme.assets/image-20240222231545197.png)
+
+
 ## Accomplishments
 Better understanding of how copilot handles different data sources.
 Better understanding in how to analyze data (and realizing it's not that easy).
@@ -28,13 +39,15 @@ You don't need to analyze the data yourself, and you get a user friendly overvie
 ## Project Continuation
 Analyzing data is something that many people request, need and expect.  This module doesn't do that.  That's a major flaw, and I hope the in the future we'll be able to (safely) upload data to a (private?) service, so we can prompt that data with copilot.
 
+We could also elaborate on the severety of the message: e.g., if the customer should not order anything, show a notification.
+
 ## Value Proposition
 Faster analyzing of customer data.  No setup.  User friendly overview of the data.
 
 ## Materials: Prototype / Pitch / Images
 - GitHub with all the materials: [https://github.com/OxygenGroupBE/AIHackathon2024](https://github.com/OxygenGroupBE/AIHackathon2024)
 - GitHub URL to this specific app: [https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/CustomerCopilot](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/CustomerCopilot)
-- Video: [Zipped video](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/CustomerCopilot/Video)
+- Video: [https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/CustomerCopilot/Video](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/CustomerCopilot/Video)
 
 ## Comments
 This project is just a small part of all our contributions during the Hackathon.  
