@@ -1,7 +1,7 @@
 {
   "id": "c0fb8b84-40b1-4bcd-ae2a-10edb078f812",
   "name": "Copilot Calculate Formula",
-  "publisher": "Astena",
+  "publisher": "Oxygen Group",
   "version": "1.0.0.0",
   "brief": "Copilot Calculate Formula",
   "description": "Copilot Calculate Formula",
@@ -10,7 +10,7 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [  ],
+  "dependencies": [],
   "screenshots": [],
   "platform": "23.0.0.0",
   "application": "23.1.0.0",
