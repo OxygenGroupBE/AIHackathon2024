@@ -1,4 +1,4 @@
-# Business Central Verify Master Data
+# Verify Master Data with Copilot
 
 ## Team information  
 
@@ -10,37 +10,36 @@
 - Stieven Vermoesen: stv@astena.be
 
 ## Problem Statement
-*What problem does your project aim to solve?* 
-*(Briefly describe the customer or partner problem your project addresses)* 
+Maintaining, checking and supervising Master Data can be a big change within an organisation. Definitely when multiple users are handling it.
+Every user can make mistakes or forget to fill up some fields.
+In the past a poweruser must check every new or updated record manually. This can be a very time consuming task.
 
 ## Solution Overview
-*What solution does your team propose?* 
+Main Features:
 
-*Provide a high-level overview of your project’s solution including:* 
-* *Name for the solution* 
-*Industry / target market* 
-* *Main features* 
-* *Benefits* 
-* *Technical requirements* 
-* *Go to market strategy* 
+Automated data validation and verification processes
+User-friendly interface for seamless data entry and management
+Real-time notifications for incomplete or erroneous data entries
+
+Benefits:
+
+Streamlined data maintenance process, reducing manual effort and errors
+Improved data accuracy and integrity through automated validation
+Enhanced efficiency as power users can focus on strategic tasks rather than routine checks
+Increased user satisfaction with a smoother and more reliable data management system
 
 ## Accomplishments
-
-*What has your team achieved during the hackathon period?* 
-*(Highlight key milestones, features, or progress made)* 
+We achieved to develop a functional prototype, showcasing the core features. It implements automated data validation and verification processes, reducing manual workload. But it needs some more tweaking.
 
 ## Impact 
-
-*How will your solution positively impact users or the community?* 
-*(Discuss the potential benefits and outcomes)* 
+Our solution will save time and effort for users through automation.
+Improving data accuracy and integrity.
 
 ## Project Continuation
-*What are the essential requirements to continue developing this project beyond the hackathon?* 
-*(Consider technical, resource, and collaboration needs)* 
+To make this project fully functional we need to finetuning the system prompt to make the data validation and verification proposals more reliabel. 
 
 ## Value Proposition 
-*What unique value does your solution bring?* 
-*(Explain why your project stands out)* 
+Our solution help users to make better and complete data and gives powerusers more time to focus on strategic tasks rather than routine checks. 
 
 ## Materials: Prototype / Pitch / Images 
 
