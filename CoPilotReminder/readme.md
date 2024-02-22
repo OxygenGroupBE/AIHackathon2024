@@ -27,24 +27,21 @@ Stieven Vermoesen
 ## What solution does your team propose? 
  
 Provide a high-level overview of your project’s solution including: 
-*Name for the solution :
+## Name for the solution :
 CopilotReminder
 
-* Industry / target market : 
+## Industry / target market : 
 accounting department
  
-* Main features :
+## Main features :
 Generate a reminder text based on the customer language and change level of severity
 levels:
 first: generates a polite reminder text
 second: generates a stronger reminder text
 last: generates a text with legal clause
   
-* Benefits :
+## Benefits :
 You get a draft in a language you don't need to fully understand.
-
-* Technical requirements 
-* Go to market strategy 
  
 # Accomplishments: 
 ## What has your team achieved during the hackathon period? 
