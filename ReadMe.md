@@ -45,7 +45,7 @@ You'll find more information on the project itself, but here's an overview of al
 - [Translate with Copilot](TranslationCopilot/Readme.md) 
 - [Send Reminder mails with CoPilot](CoPilotReminder/readme.md) 
 - [Solve formulas with Copilot](CoPilotFormulas/readme.md) 
-- [Verify Master Data](VerifyMasterData/readme.md) 
+- [Verify Master Data with Copilot](VerifyMasterData/readme.md) 
 - [Quote of the Day](QuoteOfTheDay/Readme.md) 
 
 > **Note**: 
