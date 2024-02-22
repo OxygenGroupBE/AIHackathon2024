@@ -20,13 +20,13 @@ Stieven Vermoesen: stv@astena.be
 ##What solution does your team propose? 
  
 Provide a high-level overview of your project’s solution including: 
-* Name for the solution :
+# Name for the solution :
 CopilotFormulas
  
-* Main features :
+# Main features :
 calculating formulas with paramters, based an given parameter values
   
-* Benefits :
+# Benefits :
 easy to calculate different formulas
 
 * Technical requirements 
