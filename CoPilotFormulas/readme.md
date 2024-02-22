@@ -41,6 +41,7 @@ A helpfull thing will be more information of how copilot handles/converts certai
 
 ## Value Proposition 
 *What unique value does your solution bring?* 
+
 Faster calculation of formulas with parameters. Easy setup.
 
 ## Materials: Prototype / Pitch / Images 
