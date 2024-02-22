@@ -89,7 +89,7 @@ page 54339 "Copilot Data Verify Prop Sub"
                 end;
             until TempCopilotDataVerifyProposal2.Next() = 0;
 
-        DataTypeManagement.GetRecordRef(RecRef, SourceRecord);
+        DataTypeManagement.GetRecordRef(SourceRecord, RecRef);
 
         TempCopilotDataVerifyProposal2.SetRange(Action, enum::"Copilot Data Verify Action"::Update);
         TempCopilotDataVerifyProposal2.SetFilter(Value, '<>%1', '');

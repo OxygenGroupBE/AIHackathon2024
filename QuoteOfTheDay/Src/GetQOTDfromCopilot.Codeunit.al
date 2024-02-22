@@ -63,7 +63,7 @@ codeunit 55162 "Get QOTD from Copilot"
         SystemPrompt += 'The user will ask a quote, you need to give it.';
         SystemPrompt += 'The output should be in xml, containing quote (use quote tag)';
         SystemPrompt += 'Use quotes as a root level tag, use result as quote tag.';
-        SystemPrompt += 'Do not use line breaks or other special characters in explanation.';
+        SystemPrompt += 'Do not use line breaks or other special characters.';
         SystemPrompt += 'Skip empty nodes.';
 
     end;
