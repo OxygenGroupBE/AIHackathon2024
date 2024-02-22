@@ -37,8 +37,8 @@ Stieven Vermoesen
 You'll find more information on the project itself, but here's an overview of all projects we worked on during the Hackathon.
 
 - [BC AI Studio](./AI%20Studio/readme.md)
-- [Customer Information](Customer Copilot\Readme.md)
-- Translation Copilot
+- [Customer Information](./Customer Copilot/Readme.md)
+- [Translation Copilot](./TranslationCopilot/Readme.md) 
 - Create Reminder Emails
 - Verify Master Data
 - Formula Copilot
