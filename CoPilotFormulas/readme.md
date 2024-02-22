@@ -2,50 +2,54 @@
 # Team information:  
 Oxygen Group (Belgium)
 
-Eric Wauters (Waldo): Eric.Wauters@ifacto.be
-Gunter Peeters: Gunter.Peeters@ifacto.be
-Frank Neeckx: fn@astena.be
-Stieven Vermoesen: stv@astena.be
+Eric Wauters (waldo)
+
+    - Eric.wauters@ifacto.be
+
+Gunter Peeters
+
+    - Gunter.peeters@ifacto.be
+
+Frank Neeckx
+
+    - Fn@astena.be
+
+Stieven Vermoesen
+
+    - stv@astena.be
+
 
 # Problem Statement: 
 When you need to process calculation formulas in al it demands extensive develoment.
 
 # Solution Overview: 
-##What solution does your team propose? 
+## What solution does your team propose? 
  
 Provide a high-level overview of your project’s solution including: 
-# Name for the solution :
+## Name for the solution :
 CopilotFormulas
  
-# Main features :
+## Main features :
 calculating formulas with paramters, based an given parameter values
   
-# Benefits :
-easy to calculate different formulas
+## Benefits :
+easy to calculate different formulas, you can easily change parameters, value, formulas, ... 
 
-* Technical requirements 
-* Go to market strategy 
- 
-
-#Accomplishments: 
-#What has your team achieved during the hackathon period? 
-(Highlight key milestones, features, or progress made) 
+# Accomplishments: 
+## #What has your team achieved during the hackathon period? 
 Better understanding of how copilot handels different mathematical expressions
 
-#Impact: 
-##How will your solution positively impact users or the community? 
-(Discuss the potential benefits and outcomes) 
-you easaly change the formulas and parameters
+# Impact: 
+## How will your solution positively impact users or the community? 
+you can easily change parameters, value, formulas, ... 
  
 
-#Project Continuation: 
-##What are the essential requirements to continue developing this project beyond the hackathon? 
-(Consider technical, resource, and collaboration needs) 
+# Project Continuation: 
+## What are the essential requirements to continue developing this project beyond the hackathon? 
 mayby a guideline of how copilot handles/converts certain mathematical symbols
 
-#Value Proposition: 
-##What unique value does your solution bring? 
-(Explain why your project stands out) 
+# Value Proposition: 
+## What unique value does your solution bring? 
 faster and accuartly caculation different formulas with different parameters 
 
 #Materials: Prototype / Pitch / Images 

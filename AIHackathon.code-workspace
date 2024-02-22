@@ -1,16 +1,22 @@
 {
 	"folders": [
 		{
-			"path": "AI Studio"
+			"path": "AIStudio"
 		},
 		{
-			"path": "Customer Copilot"
+			"path": "CustomerCopilot"
 		},
 		{
 			"path": "TranslationCopilot"
 		},
 		{
-			"path": "Quote Of The Day"
+			"path": "QuoteOfTheDay"
+		},
+		{
+			"path": "CoPilotReminder"
+		},
+		{
+			"path": "CoPilotFormulas"
 		},
 		{
 			"path": "../AI Hackathon"
