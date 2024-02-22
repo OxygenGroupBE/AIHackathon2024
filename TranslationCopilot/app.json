@@ -1,10 +1,10 @@
 {
   "id": "97adb546-6726-4436-9dbf-aee786767e3a",
-  "name": "Translation CoPilot",
+  "name": "Translation Copilot",
   "publisher": "Oxygen Group",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
+  "brief": "Translate with Copilot",
+  "description": "Translate with Copilot",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
