@@ -1,4 +1,4 @@
-# Business Central AI Studio
+# AI Studio for Business Central
 
 ## Team information  
 
@@ -15,6 +15,7 @@ Even a small word or a change in order can make a big difference in your results
 As we didn't had access to the AI Studio of Microsoft, we needed a quick playground in BC itself.
 
 ## Solution Overview
+
 Name: Business Central AI Studio
 
 Main Features:
@@ -30,7 +31,6 @@ Benefits:
 **Efficient Development Process**: Allows developers to experiment and refine AI models without directly modifying the code, saving time and resources.
 **Improved Accuracy**: Enables developers to optimize prompts for better performance and user experience, leading to more accurate AI responses.
 **Version Control**: Maintains a history of iterations, ensuring transparency and enabling easy tracking of changes.
-
 
 ## Accomplishments
 We successfully developed a functional prototype, showcasing the core features such as interactive prompt optimization, history control, and real-time feedback.
