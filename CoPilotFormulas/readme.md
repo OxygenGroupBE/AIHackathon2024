@@ -23,21 +23,17 @@ Stieven Vermoesen
 When you need to process calculation formulas in al it demands extensive develoment.
 
 # Solution Overview: 
-##What solution does your team propose? 
+## What solution does your team propose? 
  
 Provide a high-level overview of your project’s solution including: 
-# Name for the solution :
+## Name for the solution :
 CopilotFormulas
  
-# Main features :
+## Main features :
 calculating formulas with paramters, based an given parameter values
   
-# Benefits :
-easy to calculate different formulas
-
-* Technical requirements 
-* Go to market strategy 
- 
+## Benefits :
+easy to calculate different formulas, you can easily change parameters, value, formulas, ... 
 
 #Accomplishments: 
 #What has your team achieved during the hackathon period? 
