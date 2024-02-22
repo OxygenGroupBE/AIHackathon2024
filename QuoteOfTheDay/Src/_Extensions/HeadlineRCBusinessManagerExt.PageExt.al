@@ -13,7 +13,7 @@ pageextension 55160 "HeadlineRCBusinessManager Ext" extends "Headline RC Busines
             {
                 ShowCaption = false;
                 Visible = QOTDVisible;
-                field(GreetingText; QOTD)
+                field(QOTDText; QOTD)
                 {
                     ApplicationArea = Basic, Suite;
                     Caption = 'Greeting headline';
