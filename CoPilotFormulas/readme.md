@@ -10,13 +10,11 @@
 - Stieven Vermoesen: stv@astena.be
 
 ## Problem Statement
-When you need to process calculation formulas in al it demands extensive develoment. 
-This framework uses copilot to figure out the formula, and calculate the result.
-The module is intended to be an API, for other functionalities to benefit from it.
+When you need to process calculation formulas in AL it demands extensive develoment. Also, it usually has to be flexible: users tend to change formulas, parameters, ... .
 
 ## Solution Overview
-Dynamicaly calculation formulas, using the user his imput.
- 
+This new module uses copilot to figure out the formula, and calculate the result. The module is intended to be an API, for other functionalities to benefit from it.
+
 Main features: understanding formulas, and calculate result by providing parameters with values. 
 
 ## Accomplishments
@@ -35,9 +33,9 @@ Also, it would be helpful to be able to rely on input from the internet, like of
 Faster calculation of formulas with parameters. Easy setup. Very flexible, configurable formulas: users would be able to change the formula, and it would still work.
 
 ## Materials: Prototype / Pitch / Images 
-GitHub with all the materials: [https://github.com/OxygenGroupBE/AIHackathon2024](https://github.com/OxygenGroupBE/AIHackathon2024)
-GitHub URL to this specific app: [https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/CoPilotFormulas](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/CoPilotFormulas)
-Video: [Zipped video](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/CoPilotFormulas/Video)
+- GitHub with all the materials: [https://github.com/OxygenGroupBE/AIHackathon2024](https://github.com/OxygenGroupBE/AIHackathon2024)
+- GitHub URL to this specific app: [https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/CoPilotFormulas](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/CoPilotFormulas)
+- Video: [Zipped video](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/CoPilotFormulas/Video)
 
 ## Comments
 This project is just a small part of all our contributions during the Hackathon.  
