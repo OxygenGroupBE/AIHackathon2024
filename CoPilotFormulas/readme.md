@@ -1,4 +1,4 @@
-# CoPilot Formulas
+# Solve formulas with Copilot
 
 ## Team information  
 
@@ -10,50 +10,36 @@
 - Stieven Vermoesen: stv@astena.be
 
 ## Problem Statement
-*What problem does your project aim to solve?* 
 When you need to process calculation formulas in al it demands extensive develoment. 
+This framework uses copilot to figure out the formula, and calculate the result.
+The module is intended to be an API, for other functionalities to benefit from it.
 
 ## Solution Overview
 Dynamicaly calculation formulas, using the user his imput.
-  
-### Name for the solution :
-CopilotFormulas
  
-### Main features :
-calculating formulas with paramters, based an given parameter values
-  
-### Benefits :
-It is easy to calculate different formulas.
-You cann easily change parameters, value, formulas, ... 
+Main features: understanding formulas, and calculate result by providing parameters with values. 
 
 ## Accomplishments
-Better understanding of how copilot handels different mathematical expressions
+Better understanding of how copilot handles different mathematical expressions.
+Conclusion: it's not perfect, but pretty good.  When implemented in a framework, it can be a very usefull tool.
 
 ## Impact 
 You don't need special development if you formula, parameters changes.
-
 You can easily change parameters, value, formulas, ... 
 
 ## Project Continuation
-*What are the essential requirements to continue developing this project beyond the hackathon?* 
-
 A helpfull thing will be more information of how copilot handles/converts certain mathematical symbols.
+Also, it would be helpful to be able to rely on input from the internet, like official indexations and such.  Online copilot can find them, but not what we had available in the product.
 
 ## Value Proposition 
-*What unique value does your solution bring?* 
-
-Faster calculation of formulas with parameters. Easy setup.
+Faster calculation of formulas with parameters. Easy setup. Very flexible, configurable formulas: users would be able to change the formula, and it would still work.
 
 ## Materials: Prototype / Pitch / Images 
-GitHub with all the materials: [Oxygen Group - AI Hackathon 2024 (github.com)](https://github.com/OxygenGroupBE/AIHackathon2024)
-
-GitHub URL to this specific app: [BC AI Studio on Github]('https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/AI Studio')
-
-*Provide the URL to your prototype, GitHub repository, website, or any relevant materials.* 
-*(Insert link below or send via email with materials to HackBCAI@microsoft.com)* 
+GitHub with all the materials: [https://github.com/OxygenGroupBE/AIHackathon2024](https://github.com/OxygenGroupBE/AIHackathon2024)
+GitHub URL to this specific app: [https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/CoPilotFormulas](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/CoPilotFormulas)
+Video: [Zipped video](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/CoPilotFormulas/Video)
 
 ## Comments
-
 This project is just a small part of all our contributions during the Hackathon.  
 
 Here, you can find the complete overview:  [Contributions of the Oxygen Group for the BC AI Hackathon 2024 on GitHub](https://github.com/OxygenGroupBE/AIHackathon2024/blob/main/ReadMe.md)
