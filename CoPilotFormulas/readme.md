@@ -41,7 +41,7 @@ A helpfull thing will be more information of how copilot handles/converts certai
 
 ## Value Proposition 
 *What unique value does your solution bring?* 
-*(Explain why your project stands out)* 
+Faster calculation of formulas with parameters. Easy setup.
 
 ## Materials: Prototype / Pitch / Images 
 GitHub with all the materials: [Oxygen Group - AI Hackathon 2024 (github.com)](https://github.com/OxygenGroupBE/AIHackathon2024)
