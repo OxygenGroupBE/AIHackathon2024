@@ -61,16 +61,11 @@ To make this project fully functional we need to finetuning the system prompt to
 Our solution help users to make better and complete data and gives powerusers more time to focus on strategic tasks rather than routine checks. 
 
 ## Materials: Prototype / Pitch / Images 
-
-GitHub with all the materials: [Oxygen Group - AI Hackathon 2024 (github.com)](https://github.com/OxygenGroupBE/AIHackathon2024)
-
-GitHub URL to this specific app: [Verify Master Data on Github](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/VerifyMasterData)
-
-*Provide the URL to your prototype, GitHub repository, website, or any relevant materials.* 
-*(Insert link below or send via email with materials to HackBCAI@microsoft.com)* 
+- GitHub with all the materials: [https://github.com/OxygenGroupBE/AIHackathon2024](https://github.com/OxygenGroupBE/AIHackathon2024)
+- GitHub URL to this specific app: [https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/VerifyMasterData](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/VerifyMasterData)
+- Video: [https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/VerifyMasterData/Video](https://github.com/OxygenGroupBE/AIHackathon2024/tree/main/VerifyMasterData/Video)
 
 ## Comments
-
 This project is just a small part of all our contributions during the Hackathon.  
 
-Here, you can find the complete overview:  [Contributions of the Oxygen Group for the BC AI Hackathon 2024 on GitHub](https://github.com/OxygenGroupBE/AIHackathon2024/blob/main/ReadMe.md)
+Here, you can find the complete overview:  [https://github.com/OxygenGroupBE/AIHackathon2024/blob/main/ReadMe.md](https://github.com/OxygenGroupBE/AIHackathon2024/blob/main/ReadMe.md)
