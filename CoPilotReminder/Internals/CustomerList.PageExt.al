@@ -6,7 +6,7 @@ pageextension 56000 "Customer List Ext" extends "Customer List"
         {
             action(GenerateCopilot)
             {
-                Caption = 'Suggest with Copilot';
+                Caption = 'Suggest reminder with Copilot';
                 Image = Sparkle;
                 ApplicationArea = All;
                 ToolTip = 'Lets Copilot generate a draft reminder mail.';
