@@ -36,8 +36,15 @@ codeunit 55162 "Get QOTD from Copilot"
         TempBlob.CreateOutStream(OutStr);
         TmpText := Chat(GetSystemPrompt(), GetFinalUserPrompt());
 
-        if not TmpText.Contains('result') then exit;
-        Quote := TmpText.Substring(TmpText.IndexOf('<result>') + 8, TmpText.IndexOf('</result>') - TmpText.IndexOf('<result>') - 8);
+        Quote := TmpText.replace('<result>', '').replace('</result>', '').replace('<quote>', '').replace('</quote>', '');
+
+        if Quote.Contains('safety_clause') then
+            Quote := Quote.Substring(Quote.IndexOf('</safety_clause>') + 16);
+
+        // if TmpText.Contains('result') then
+        //     Quote := TmpText.Substring(TmpText.IndexOf('<result>') + 8, TmpText.IndexOf('</result>') - TmpText.IndexOf('<result>') - 8);
+        // if TmpText.Contains('quote') then
+        //     Quote := TmpText.Substring(TmpText.IndexOf('<quote>') + 8, TmpText.IndexOf('</quote>') - TmpText.IndexOf('<quote>') - 8);
     end;
 
     local procedure GetFinalUserPrompt() FinalUserPrompt: Text

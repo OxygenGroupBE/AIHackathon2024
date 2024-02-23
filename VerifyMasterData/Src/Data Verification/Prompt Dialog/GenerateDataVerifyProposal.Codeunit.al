@@ -132,6 +132,11 @@ codeunit 54324 "Generate Data Verify Proposal"
         FldRef := RecRef.Field(RecRef.SystemIdNo);
         SourceFldRef := SourceRecord.Field(SourceRecord.SystemIdNo);
         FldRef.SetFilter('<>%1', SourceFldRef.Value);
+        if DataVerifyTable."Filter Field No." <> 0 then begin
+            FldRef := RecRef.Field(DataVerifyTable."Filter Field No.");
+            SourceFldRef := SourceRecord.Field(DataVerifyTable."Filter Field No.");
+            FldRef.SetFilter('%1', SourceFldRef.Value);
+        end;
         if RecRef.FindSet() then
             repeat
                 FinalUserPrompt += GetAllFields(RecRef, false) + '.' + Newline;
@@ -178,7 +183,7 @@ codeunit 54324 "Generate Data Verify Proposal"
     begin
         DataVerifyTableField.SetRange("Table No.", DataVerifyTable."Table No.");
         DataVerifyTableField.SetRange("Field No.", FieldNo);
-        exit(not DataVerifyTableField.IsEmpty());
+        SkipField := not DataVerifyTableField.IsEmpty();
     end;
 
     local procedure GetSystemPrompt() SystemPrompt: Text
@@ -188,12 +193,12 @@ codeunit 54324 "Generate Data Verify Proposal"
         Newline := 10;
         SystemPrompt += 'The user will provide an item with all fields, and a list of reference items. Your task is to compare fields to the majority of the reference items and suggest a value. The missing values should get a suggestion too.';
         SystemPrompt += 'The available fields are delimited by pipe symbol | . The following lines should contain the values of the fields.';
-        SystemPrompt += 'For example: These are the available items:' + Newline;
+        SystemPrompt += 'This is an example: These are the available items:' + Newline;
         SystemPrompt += '1=''A''|3=''df''|9=''ST''|12=''|13=''DG''' + Newline;
         SystemPrompt += '1=''B''|3=''gd''|9=''DS''|12=''|13=''DG''' + Newline;
         SystemPrompt += '1=''C''|3=''|9=''DS''|12=''|13=''DG''' + Newline;
         SystemPrompt += 'The current item that needs to be checked is: 1=''D|''|3=''|9=''ST''|12=''uy''|13=''DG''' + Newline;
-        SystemPrompt += 'The result will be:' + Newline;
+        SystemPrompt += 'The result of the example will be:' + Newline;
         SystemPrompt += 'fieldno: 3, value: MISSING, explanation: The field is not empty in the majority of the items.' + Newline;
         SystemPrompt += 'fieldno: 4, value: DS , explanation: The field value is different from the majority of the items.' + Newline;
         SystemPrompt += 'The output should be in xml, containing field (use fieldno tag), value (use value tag), and explanation why this field was suggested (use explanation tag).';
