@@ -31,6 +31,7 @@ codeunit 54324 "Generate Data Verify Proposal"
         TmpXmlBuffer: Record "XML Buffer" temporary;
         Field: Record Field;
         TempBlob: Codeunit "Temp Blob";
+        FldRef: FieldRef;
         InStr: InStream;
         OutStr: OutStream;
         CurrInd, LineNo : Integer;
@@ -65,6 +66,8 @@ codeunit 54324 "Generate Data Verify Proposal"
                                 NewRecord := Field.Type in [Field.Type::Text, Field.Type::Code];
                             if NewRecord then begin
                                 TempCopilotDataVerifyProposal."Line No." := LineNo;
+                                FldRef := SourceRecord.Field(TempCopilotDataVerifyProposal."Field No.");
+                                TempCopilotDataVerifyProposal."Current Value" := Format(FldRef.Value);
                                 TempCopilotDataVerifyProposal.Insert();
                                 LineNo += 10000;
                             end;

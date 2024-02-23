@@ -27,6 +27,10 @@ page 54339 "Copilot Data Verify Prop Sub"
                 {
                     ApplicationArea = All;
                 }
+                field("Current Value"; Rec."Current Value")
+                {
+                    ApplicationArea = All;
+                }
                 field(Value; Rec.Value)
                 {
                     ApplicationArea = All;

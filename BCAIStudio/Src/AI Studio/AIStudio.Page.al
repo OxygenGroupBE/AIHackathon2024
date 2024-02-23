@@ -76,6 +76,10 @@ page 53300 "AI Studio"
                         ApplicationArea = All;
                         MultiLine = true;
                         ShowCaption = false;
+                        trigger OnAssistEdit()
+                        begin
+                            Message(SystemPrompt);
+                        end;
                     }
                 }
                 group(UserPrompGiven)
@@ -86,6 +90,10 @@ page 53300 "AI Studio"
                         ApplicationArea = All;
                         MultiLine = true;
                         ShowCaption = false;
+                        trigger OnAssistEdit()
+                        begin
+                            Message(UserPrompt);
+                        end;
                     }
                 }
             }
