@@ -21,12 +21,14 @@ codeunit 55162 "Get QOTD from Copilot"
     local procedure DoGetQuote(var Quote: Text; IsHandled: Boolean)
     var
         TmpXmlBuffer: Record "XML Buffer" temporary;
+        XmlDoc: XmlDocument;
+        Node: XmlNode;
         TempBlob: Codeunit "Temp Blob";
         InStr: InStream;
         OutStr: OutStream;
         CurrInd, LineNo : Integer;
         DateVar: Date;
-        TmpText: Text;
+        TmpText, TmpText2 : Text;
     begin
         if IsHandled then
             exit;
@@ -34,23 +36,8 @@ codeunit 55162 "Get QOTD from Copilot"
         TempBlob.CreateOutStream(OutStr);
         TmpText := Chat(GetSystemPrompt(), GetFinalUserPrompt());
 
-        Quote := TmpText;
-
-        OutStr.WriteText(TmpText);
-        TempBlob.CreateInStream(InStr);
-
-        TmpXmlBuffer.DeleteAll();
-        TmpXmlBuffer.LoadFromStream(InStr);
-
-        Clear(OutStr);
-        LineNo := 10000;
-        if TmpXmlBuffer.FindSet() then
-            repeat
-                case TmpXmlBuffer.Path of
-                    '/quote/result':
-                        Quote := TmpXmlBuffer.Value;
-                end;
-            until TmpXmlBuffer.Next() = 0;
+        if not TmpText.Contains('result') then exit;
+        Quote := TmpText.Substring(TmpText.IndexOf('<result>') + 8, TmpText.IndexOf('</result>') - TmpText.IndexOf('<result>') - 8);
     end;
 
     local procedure GetFinalUserPrompt() FinalUserPrompt: Text
