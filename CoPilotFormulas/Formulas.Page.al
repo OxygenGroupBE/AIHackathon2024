@@ -4,6 +4,7 @@ page 56201 Formulas
     Caption = 'Formulas';
     PageType = List;
     SourceTable = Formulas;
+    UsageCategory = Administration;
 
     layout
     {
@@ -38,7 +39,7 @@ page 56201 Formulas
         {
             action(GenerateCopilot)
             {
-                Caption = 'Suggest with Copilot';
+                Caption = 'Calculate with Copilot';
                 Image = Sparkle;
                 ApplicationArea = All;
                 ToolTip = 'Lets Copilot calculate the given formula.';

@@ -30,7 +30,7 @@ codeunit 56201 "Generate Formula Proposal"
         TmpText := Chat(GetSystemPrompt(), UserPrompt);
         OutStr.WriteText(TmpText);
         TempBlob.CreateInStream(InStr, TextEncoding::UTF8);
-        Message(TmpText);
+        //Message(TmpText);
         TmpXmlBuffer.DeleteAll();
         TmpXmlBuffer.LoadFromStream(InStr);
 
@@ -121,7 +121,7 @@ codeunit 56201 "Generate Formula Proposal"
         SystemPrompt += 'Skip empty xml nodes.';
         SystemPrompt += 'Skip safetyclause.';
 
-        Message(SystemPrompt);
+        //Message(SystemPrompt);
     end;
 
     var

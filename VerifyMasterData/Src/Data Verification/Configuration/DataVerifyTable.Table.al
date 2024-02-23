@@ -47,6 +47,30 @@ table 54300 "Data Verify Table"
             Editable = false;
 
         }
+        field(30; "Filter Field No."; Integer)
+        {
+            Caption = 'Filter Field No.';
+            DataClassification = CustomerContent;
+            TableRelation = Field."No." WHERE(TableNo = FIELD("Table No."), Type = FILTER(Code | Text), Class = const(Normal));
+            BlankZero = true;
+            trigger OnValidate()
+            begin
+                CalcFields("Filter Field Name");
+            end;
+
+            trigger OnLookup()
+            begin
+                Validate("Filter Field No.", LookUpFieldNo("Table No.", "Filter Field No."));
+            end;
+        }
+
+        field(31; "Filter Field Name"; Text[30])
+        {
+            Caption = 'Filter Field Name';
+            FieldClass = FlowField;
+            CalcFormula = Lookup(Field.FieldName where(TableNo = field("Table No."), "No." = field("Filter Field No.")));
+            Editable = false;
+        }
     }
 
     keys
@@ -64,6 +88,19 @@ table 54300 "Data Verify Table"
     begin
         DataVerifyTableField.SetRange(DataVerifyTableField."Table No.", Rec."Table No.");
         DataVerifyTableField.DeleteAll(false);
+    end;
+
+    local procedure LookUpFieldNo(TableIdFilter: Integer; DefaultFieldId: Integer): integer
+    var
+        FieldRec: Record Field;
+        FieldSelection: Codeunit "Field Selection";
+    begin
+        FieldRec.FilterGroup(2);
+        FieldRec.SetRange(FieldRec.TableNo, TableIdFilter);
+        FieldRec.SetFilter(FieldRec.Type, '%1|%2|%3|%4|%5', FieldRec.Type::Code, FieldRec.Type::text, FieldRec.Type::Date, FieldRec.Type::Datetime, FieldRec.Type::Time);
+        FieldRec.FilterGroup(0);
+        if not FieldSelection.Open(FieldRec) then exit(DefaultFieldId);
+        exit(FieldRec."No.")
     end;
 
     local procedure IsValidTableNo(TableNo: integer): Boolean

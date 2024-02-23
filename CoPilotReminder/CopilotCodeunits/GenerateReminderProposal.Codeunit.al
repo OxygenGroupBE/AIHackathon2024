@@ -29,7 +29,7 @@ codeunit 56001 "Generate Reminder Proposal"
         TempBlob.CreateOutStream(OutStr, TextEncoding::UTF8);
         TmpText := Chat(GetSystemPrompt(), GetFinalUserPrompt(UserPrompt));
         OutStr.WriteText(TmpText);
-        Message(TmpText);
+        //Message(TmpText);
         TempBlob.CreateInStream(InStr, TextEncoding::UTF8);
 
         TmpXmlBuffer.DeleteAll();
