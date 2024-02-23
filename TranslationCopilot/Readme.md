@@ -42,9 +42,12 @@ The confidence of 0.2 indicates it's a bad translation, and it suggests a better
 ![image-20240222233358930](Readme.assets/image-20240222233358930.png)
 
 ## Accomplishments
-Better understanding of how copilot handles different languages.
-Encoding is important.
+Better understanding of how copilot handles different languages. Encoding is important.
 Better understanding of how capable it is to discover which language is used in a text.
+
+We were able to implement a "translate" feature in Business Central: translate anything to anything.
+
+The mechanics served as an API for managing translations for Items.
 
 ## Impact
 The system can translate a text in a language you don't need to fully understand.

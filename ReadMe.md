@@ -28,13 +28,13 @@ Frank Neeckx
 
     - Fn@astena.be
     - Development lead
-    - Astena – MPN 5256912
+    - Astena
     - Belgium
 
 Stieven Vermoesen
 
     - Development Consultant
-    - Astena – MPN 5256912
+    - Astena
     - Belgium
 
 ## Projects
@@ -45,8 +45,8 @@ You'll find more information on the project itself, but here's an overview of al
 - [Translate with Copilot](TranslationCopilot/Readme.md) 
 - [Send Reminder mails with CoPilot](CoPilotReminder/readme.md) 
 - [Solve formulas with Copilot](CoPilotFormulas/readme.md) 
-- [Verify Master Data](VerifyMasterData/readme.md) 
-- [Quote of the Day](QuoteOfTheDay\readme.md) 
+- [Verify Master Data with Copilot](VerifyMasterData/readme.md) 
+- [Quote of the Day](QuoteOfTheDay/Readme.md) 
 
 > **Note**: 
 All these projects are merely "Proof Of Concepts".  We had ideas, and we wanted to show how in our mind it could work as a Copilot feature in combination with LLM.

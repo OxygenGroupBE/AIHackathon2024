@@ -40,6 +40,8 @@ The proof of concept works - now we would be able to implement this in real life
 Better understanding of how copilot handles different mathematical expressions.
 Conclusion: it's not perfect, but pretty good.  When implemented in a framework, it can be a very usefull tool.
 
+We now have a functional prototype/module/framework that can be used in certain use cases.
+
 ## Impact 
 You don't need special development if you formula, parameters changes.
 You can easily change parameters, value, formulas, ... 
