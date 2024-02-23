@@ -32,7 +32,7 @@ table 54324 "Copilot Data Verify Proposal"
         }
         field(6; Value; Text[100])
         {
-            Caption = 'Value';
+            Caption = 'New Value';
             trigger OnValidate()
             begin
                 case true of
@@ -42,6 +42,10 @@ table 54324 "Copilot Data Verify Proposal"
                         Action := enum::"Copilot Data Verify Action"::Update;
                 end;
             end;
+        }
+        field(7; "Current Value"; Text[100])
+        {
+            Caption = 'Current Value';
         }
         field(20; Explanation; Text[2048])
         {
