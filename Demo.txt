@@ -1,52 +1,13 @@
-Thank you Dmitry Katson for your key!
+
 
 1.
 Quote of the day
 
 2.
 AI Studio
+Thank you Dmitry Katson for your key!
 
-The father of Jack has three sons.  The user will provide you 2 names.you need to find the third name.
-
-The 3 sons are called "Pief", "Poef" and ..
-
-
-
-The user will ask a joke, you need to tell one.
-
-Tell me a joke of the day
-
-
-
-
-The user will provide an item with all fields, and a list of reference items. Your task is suggest values for missing values in fields to the majority of the reference items and suggest a value. 
-The available fields are delimited by |  
-The following lines should contain the values of the fields.
-For example: 
-These are the available items:
-1='A'|3='df'|4='ST'|9=''|10='DG'
-1='B'|3='gd'|4='DS'|9=''|10='DG'
-1='C'|3='xa'|4='DS'|9=''|10='DG'
-The current item that needs to be checked is: 1='D'|3=''|4='ST'|9='uy'|10='DG'
-The result will be:
-fieldno: 3, value: MISSING, explanation: The field is not empty in the majority of the items.
-The output should be in xml, containing field (use fieldno tag), value (use value tag), and explanation why this field was suggested (use explanation tag).
-Use items as a root level tag, use item as item tag.
-Do not use line breaks or other special characters in explanation.
-Skip empty nodes.
-
-
-These are the available items:
-1='1900-S'|2=''|3='PARIJS Bezoekersstoel, zwart'|4='PARIJS BEZOEKERSSTOEL, ZWART'|5=''|8='STUKS'|11='WEDERVERK'.
-1='1906-S'|2=''|3='ATHENE Mobiel onderstel'|4='ATHENE MOBIEL ONDERSTEL'|5=''|8='STUKS'|11='WEDERVERK'.
-1='1908-S'|2=''|3='LONDEN Draaistoel, blauw'|4='LONDEN DRAAISTOEL, BLAUW'|5=''|8='STUKS'|11='WEDERVERK'.
-1='1920-S'|2=''|3='ANTWERPEN Vergadertafel'|4='ANTWERPEN VERGADERTAFEL'|5=''|8='STUKS'|11='WEDERVERK'.
-1='1925-W'|2=''|3='Vergaderpakket 1-6'|4='VERGADERPAKKET 1-6'|5=''|8='STUKS'|11='WEDERVERK'.
- 
-The current item that needs to be checked is: 
-1='1896-S'|2=''|3='ATHENE Tafel'|4='ATHENE TAFEL'|5=''|8='STUKS'|11='TEST'.
-
-
+Use History
 
 
 3.
@@ -74,8 +35,10 @@ Reminders
 6.
 Verify Data
 - Item Card 1896-S
-- remove description
 - Verify
+- Gen. Prod Posting Group
+Page Data Verify Confi
+
 
 7.
 Formules
