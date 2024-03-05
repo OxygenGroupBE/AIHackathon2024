@@ -107,7 +107,7 @@ codeunit 55120 "GetCustInfo Copilot Meth"
     begin
         DataTypeManagement.GetRecordRef(Cust, RecordRef);
         Newline := 10;
-        LastXLedgerEntries := 20;
+        LastXLedgerEntries := 10;
         Cust.CalcFields("Balance Due (LCY)");
 
         FinalUserPrompt := 'This is the customer Information:' + Newline;
@@ -169,7 +169,8 @@ codeunit 55120 "GetCustInfo Copilot Meth"
                             CustLedgerEntry."Document Date",
                             abs(CustLedgerEntry."Amount (LCY)")
                             ) + Newline;
-                end
+                end;
+                i += 1;
             until (CustLedgerEntry.next < 1) or (i >= LastXLedgerEntries);
     end;
 

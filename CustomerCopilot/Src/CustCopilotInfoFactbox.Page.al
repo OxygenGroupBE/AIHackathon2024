@@ -18,6 +18,11 @@ page 55120 "Cust. Copilot Info Factbox"
                 ShowCaption = false;
                 MultiLine = true;
                 ExtendedDatatype = RichContent;
+
+                trigger OnAssistEdit()
+                begin
+                    Message(CustInfo);
+                end;
             }
         }
     }
