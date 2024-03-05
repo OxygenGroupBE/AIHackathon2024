@@ -42,16 +42,14 @@ codeunit 53302 "Generate AI"
         AOAIOperationResponse: Codeunit "AOAI Operation Response";
         AOAIChatCompletionParams: Codeunit "AOAI Chat Completion Params";
         AOAIChatMessages: Codeunit "AOAI Chat Messages";
-        IsolatedStorageWrapper: Codeunit "Isolated Storage Wrapper";
+        AIDeploymentFactory: Codeunit "AI Deployment Factory";
         Result, Deployment : Text;
         EntityTextModuleInfo: ModuleInfo;
-        enumValue: Integer;
     begin
         // These funtions in the "Azure Open AI" codeunit will be available in Business Central online later this year.
         // You will need to use your own key for Azure OpenAI for all your Copilot features (for both development and production).
-        enumValue := enum::"Al Studio Deployment".Ordinals().IndexOf(TempAIStudioAttempt.Deployment.AsInteger());
-        Deployment := enum::"Al Studio Deployment".Names().Get(enumValue);
-        AzureOpenAI.SetAuthorization(Enum::"AOAI Model Type"::"Chat Completions", IsolatedStorageWrapper.GetEndpoint(), Deployment, IsolatedStorageWrapper.GetSecretKey());
+        AIDeploymentFactory.SetInterface(TempAIStudioAttempt.Deployment);
+        AzureOpenAI.SetAuthorization(Enum::"AOAI Model Type"::"Chat Completions", AIDeploymentFactory.GetEndpoint(), AIDeploymentFactory.GetDeployment(), AIDeploymentFactory.GetSecretKey());
 
         AzureOpenAI.SetCopilotCapability(Enum::"Copilot Capability"::"AI Studio");
 
@@ -66,7 +64,7 @@ codeunit 53302 "Generate AI"
         if AOAIOperationResponse.IsSuccess() then
             Result := AOAIChatMessages.GetLastMessage()
         else
-            Error(AOAIOperationResponse.GetError());
+            Result := AOAIOperationResponse.GetError();
 
         exit(Result);
     end;

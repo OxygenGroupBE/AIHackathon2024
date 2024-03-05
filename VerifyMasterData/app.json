@@ -10,7 +10,14 @@
   "help": "https://go.microsoft.com/fwlink/?linkid=2104024",
   "url": "https://go.microsoft.com/fwlink/?LinkId=724011",
   "logo": "ExtensionLogo.png",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "id": "ead44895-1c7f-4ba9-a578-8e76cb88825a",
+      "name": "OpenAI Settings",
+      "publisher": "Oxygen Group",
+      "version": "1.0.0.0"
+    }
+  ],
   "screenshots": [],
   "platform": "23.0.0.0",
   "application": "23.1.0.0",

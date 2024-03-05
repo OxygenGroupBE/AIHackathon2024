@@ -87,12 +87,13 @@ codeunit 56001 "Generate Reminder Proposal"
         AOAIOperationResponse: Codeunit "AOAI Operation Response";
         AOAIChatCompletionParams: Codeunit "AOAI Chat Completion Params";
         AOAIChatMessages: Codeunit "AOAI Chat Messages";
-        IsolatedStorageWrapper: Codeunit "Isolated Storage Wrapper";
+        AIDeploymentFactory: Codeunit "AI Deployment Factory";
         Result: Text;
         EntityTextModuleInfo: ModuleInfo;
     begin
         Clear(AzureOpenAI);
-        AzureOpenAI.SetAuthorization(Enum::"AOAI Model Type"::"Chat Completions", IsolatedStorageWrapper.GetEndpoint(), IsolatedStorageWrapper.GetDeployment(), IsolatedStorageWrapper.GetSecretKey());
+        AIDeploymentFactory.SetInterface(enum::"AI Deployment"::"gpt-4-32k");
+        AzureOpenAI.SetAuthorization(Enum::"AOAI Model Type"::"Chat Completions", AIDeploymentFactory.GetEndpoint(), AIDeploymentFactory.GetDeployment(), AIDeploymentFactory.GetSecretKey());
         AzureOpenAI.SetCopilotCapability(Enum::"Copilot Capability"::"Generate Reminder Mail");
 
         AOAIChatCompletionParams.SetMaxTokens(2500);

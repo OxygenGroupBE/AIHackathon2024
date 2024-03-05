@@ -10,7 +10,14 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "id": "ead44895-1c7f-4ba9-a578-8e76cb88825a",
+      "name": "OpenAI Settings",
+      "publisher": "Oxygen Group",
+      "version": "1.0.0.0"
+    }
+  ],
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "21.0.0.0",

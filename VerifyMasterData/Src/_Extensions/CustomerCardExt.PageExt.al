@@ -15,7 +15,7 @@ pageextension 54344 "CustomerCard Ext" extends "Customer Card"
                 Caption = 'Verify by Copilot';
                 ToolTip = 'Verify by Copilot';
                 trigger OnAction()
-                begin
+                begin                    
                     VerifyWithAI();
                 end;
             }

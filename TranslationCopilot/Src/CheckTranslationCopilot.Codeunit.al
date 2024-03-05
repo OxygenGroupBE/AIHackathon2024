@@ -85,13 +85,14 @@ codeunit 55144 "Check Translation Copilot"
         AOAIOperationResponse: Codeunit "AOAI Operation Response";
         AOAIChatCompletionParams: Codeunit "AOAI Chat Completion Params";
         AOAIChatMessages: Codeunit "AOAI Chat Messages";
-        IsolatedStorageWrapper: Codeunit "Isolated Storage Wrapper";
+        AIDeploymentFactory: Codeunit "AI Deployment Factory";
         Result: Text;
         EntityTextModuleInfo: ModuleInfo;
     begin
         // These funtions in the "Azure Open AI" codeunit will be available in Business Central online later this year.
         // You will need to use your own key for Azure OpenAI for all your Copilot features (for both development and production).
-        AzureOpenAI.SetAuthorization(Enum::"AOAI Model Type"::"Chat Completions", IsolatedStorageWrapper.GetEndpoint(), IsolatedStorageWrapper.GetDeployment(), IsolatedStorageWrapper.GetSecretKey());
+        AIDeploymentFactory.SetInterface(enum::"AI Deployment"::"gpt-4-32k");
+        AzureOpenAI.SetAuthorization(Enum::"AOAI Model Type"::"Chat Completions", AIDeploymentFactory.GetEndpoint(), AIDeploymentFactory.GetDeployment(), AIDeploymentFactory.GetSecretKey());
 
         AzureOpenAI.SetCopilotCapability(Enum::"Copilot Capability"::Translations);
 

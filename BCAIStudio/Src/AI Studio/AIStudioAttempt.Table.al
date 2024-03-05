@@ -8,7 +8,7 @@ table 53300 "AI Studio Attempt"
         {
             Caption = 'Attempt';
         }
-        field(2; "Deployment"; enum "Al Studio Deployment")
+        field(2; "Deployment"; enum "AI Deployment")
         {
             Caption = 'Deployment';
         }
