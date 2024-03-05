@@ -43,7 +43,7 @@ codeunit 53302 "Generate AI"
         AOAIChatCompletionParams: Codeunit "AOAI Chat Completion Params";
         AOAIChatMessages: Codeunit "AOAI Chat Messages";
         AIDeploymentFactory: Codeunit "AI Deployment Factory";
-        Result, Deployment : Text;
+        Result, SystemText, UserText : Text;
         EntityTextModuleInfo: ModuleInfo;
     begin
         // These funtions in the "Azure Open AI" codeunit will be available in Business Central online later this year.
@@ -56,8 +56,10 @@ codeunit 53302 "Generate AI"
         AOAIChatCompletionParams.SetMaxTokens(TempAIStudioAttempt."Max. Tokens");
         AOAIChatCompletionParams.SetTemperature(TempAIStudioAttempt."Temperature");
 
-        AOAIChatMessages.AddSystemMessage(TempAIStudioAttempt.GetSystemPrompt().Replace('<br>', ' '));
-        AOAIChatMessages.AddUserMessage(TempAIStudioAttempt.GetUserPrompt().Replace('<br>', ' '));
+        SystemText := TempAIStudioAttempt.GetSystemPrompt().Replace('<br>', ' ');
+        AOAIChatMessages.AddSystemMessage(SystemText);
+        UserText := TempAIStudioAttempt.GetUserPrompt().Replace('<br>', ' ');
+        AOAIChatMessages.AddUserMessage(UserText);
 
         AzureOpenAI.GenerateChatCompletion(AOAIChatMessages, AOAIChatCompletionParams, AOAIOperationResponse);
 
