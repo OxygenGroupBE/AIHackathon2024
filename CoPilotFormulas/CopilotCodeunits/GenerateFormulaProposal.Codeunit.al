@@ -72,6 +72,7 @@ codeunit 56201 "Generate Formula Proposal"
         EntityTextModuleInfo: ModuleInfo;
     begin
         Clear(AzureOpenAI);
+        AIDeploymentFactory.Initialize();
         AzureOpenAI.SetAuthorization(Enum::"AOAI Model Type"::"Chat Completions", AIDeploymentFactory.GetEndpoint(), AIDeploymentFactory.GetDeployment(), AIDeploymentFactory.GetSecretKey());
         AzureOpenAI.SetCopilotCapability(Enum::"Copilot Capability"::"Calculate Formula");
 

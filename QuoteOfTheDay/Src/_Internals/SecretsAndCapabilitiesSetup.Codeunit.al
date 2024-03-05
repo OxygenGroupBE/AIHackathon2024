@@ -19,7 +19,7 @@ codeunit 55161 "Secrets And Capabilities Setup"
     var
         CopilotCapability: Codeunit "Copilot Capability";
         LearnMoreUrlTxt: Label 'https://example.com/CopilotToolkit', Locked = true;
-    begin
+    begin        
         if not CopilotCapability.IsCapabilityRegistered(Enum::"Copilot Capability"::QOTD) then
             CopilotCapability.RegisterCapability(Enum::"Copilot Capability"::QOTD, Enum::"Copilot Availability"::Preview, LearnMoreUrlTxt);
     end;

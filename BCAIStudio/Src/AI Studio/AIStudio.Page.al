@@ -218,10 +218,11 @@ page 53300 "AI Studio"
     local procedure GetValues()
     begin
         if Generate then exit;
+        TempAIStudioAttempt.TransferFields(Rec);
         SystemPrompt := Rec.GetSystemPrompt();
         UserPrompt := Rec.GetUserPrompt();
-        TempAIStudioAttempt.TransferFields(Rec);
-        Result := Rec.GetResult();        
+        
+        Result := Rec.GetResult();
         SetResultValue(Result);
     end;
 

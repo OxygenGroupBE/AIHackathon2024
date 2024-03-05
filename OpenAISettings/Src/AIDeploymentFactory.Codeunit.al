@@ -7,6 +7,12 @@ codeunit 56162 "AI Deployment Factory"
         AIDeployment: Record "AI Deployment";
         Loaded: Boolean;
 
+    procedure Initialize()
+    begin
+        Clear(AIDeployment);
+        Loaded := false;
+    end;
+
 
     procedure SetInterface(Deployment: Enum "AI Deployment")
     begin
