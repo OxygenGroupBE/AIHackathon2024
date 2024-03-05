@@ -38,6 +38,9 @@ page 53300 "AI Studio"
                 ApplicationArea = All;
                 trigger OnValidate()
                 begin
+                    Rec.Deployment := TempAIStudioAttempt.Deployment;
+                    Rec.Modify();
+                    
                     CurrPage.Update();
                 end;
             }
@@ -59,8 +62,8 @@ page 53300 "AI Studio"
                 Caption = 'Temperature';
                 ApplicationArea = All;
             }
-            field(Dev; TempAIStudioAttempt.Deployment)
-            {
+            field(Dev; Rec.Deployment)
+                    {
                 Caption = 'Deployment';
                 ApplicationArea = All;
                 Editable = false;
@@ -217,8 +220,8 @@ page 53300 "AI Studio"
         if Generate then exit;
         SystemPrompt := Rec.GetSystemPrompt();
         UserPrompt := Rec.GetUserPrompt();
-        Result := Rec.GetResult();
-        SetResultValue(Result);
+        TempAIStudioAttempt.TransferFields(Rec);
+        SetResultValue(Result); 
     end;
 
     local procedure AddDemoData()
