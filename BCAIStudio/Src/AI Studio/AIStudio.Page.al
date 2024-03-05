@@ -40,7 +40,7 @@ page 53300 "AI Studio"
                 begin
                     Rec.Deployment := TempAIStudioAttempt.Deployment;
                     Rec.Modify();
-                    
+
                     CurrPage.Update();
                 end;
             }
@@ -63,7 +63,7 @@ page 53300 "AI Studio"
                 ApplicationArea = All;
             }
             field(Dev; Rec.Deployment)
-                    {
+            {
                 Caption = 'Deployment';
                 ApplicationArea = All;
                 Editable = false;
@@ -221,7 +221,8 @@ page 53300 "AI Studio"
         SystemPrompt := Rec.GetSystemPrompt();
         UserPrompt := Rec.GetUserPrompt();
         TempAIStudioAttempt.TransferFields(Rec);
-        SetResultValue(Result); 
+        Result := Rec.GetResult();        
+        SetResultValue(Result);
     end;
 
     local procedure AddDemoData()
