@@ -21,6 +21,10 @@ page 56160 "AI Deployment List"
                 {
                     ToolTip = 'Specifies the value of the Description field.';
                 }
+                field(Default; Rec.Default)
+                {
+                    ToolTip = 'Specifies the value of the Default field.';
+                }
                 field(Endpoint; Rec.Endpoint)
                 {
                     ToolTip = 'Specifies the value of the Endpoint field.';

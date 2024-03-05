@@ -92,7 +92,6 @@ codeunit 56001 "Generate Reminder Proposal"
         EntityTextModuleInfo: ModuleInfo;
     begin
         Clear(AzureOpenAI);
-        AIDeploymentFactory.SetInterface(enum::"AI Deployment"::"gpt-4-32k");
         AzureOpenAI.SetAuthorization(Enum::"AOAI Model Type"::"Chat Completions", AIDeploymentFactory.GetEndpoint(), AIDeploymentFactory.GetDeployment(), AIDeploymentFactory.GetSecretKey());
         AzureOpenAI.SetCopilotCapability(Enum::"Copilot Capability"::"Generate Reminder Mail");
 

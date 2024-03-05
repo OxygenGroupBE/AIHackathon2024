@@ -5,42 +5,41 @@ codeunit 56162 "AI Deployment Factory"
 
     var
         AIDeployment: Record "AI Deployment";
-        IDeployment: Interface "IDeployment";
         Loaded: Boolean;
-
-
 
 
     procedure SetInterface(Deployment: Enum "AI Deployment")
     begin
         AIDeployment.Get(Deployment);
-        IDeployment := Deployment;
         Loaded := true;
     end;
 
-    procedure GetInterface() : Interface "IDeployment"
+    procedure GetInterface(): Record "AI Deployment"
     begin
         if not Loaded then
-            SetInterface(enum::"AI Deployment"::"gpt-4-32k");
-        exit(IDeployment);
-    end; 
-    
+            SetInterface(AIDeployment.GetDefault());
+
+        exit(AIDeployment);
+    end;
+
     [NonDebuggable]
+
     procedure GetSecretKey() SecretKey: Text
     begin
-        GetInterface();
-        exit(AIDeployment.GetSecretKey());
+        exit(GetInterface().GetSecretKey());
     end;
 
     procedure GetDeployment() Deployment: Text
+    var
+        enumValue: Integer;
     begin
-        exit(GetInterface().GetDeployment());
+        enumValue := enum::"AI Deployment".Ordinals().IndexOf(AIDeployment.Deployment.AsInteger());
+        exit(enum::"AI Deployment".Names().Get(enumValue));
     end;
-
-    procedure GetEndpoint() Endpoint: Text
+    
+        procedure GetEndpoint() Endpoint: Text
     begin
-        GetInterface();
-        exit(AIDeployment.Endpoint);
+        exit(GetInterface().Endpoint);
     end;
 
 }

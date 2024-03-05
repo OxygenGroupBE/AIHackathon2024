@@ -222,17 +222,21 @@ page 53300 "AI Studio"
     end;
 
     local procedure AddDemoData()
+    var
+        AIDeployment: Record "AI Deployment";
     begin
         Rec.Init();
         rec.Attempt := 1;
         Rec.SetSystemPrompt('The father of Jack has three sons.  The user will provide you 2 names.you need to find the third name.');
         rec.SetUserPrompt('The 3 sons are called "Pief", "Poef" and ..');
+        Rec.Deployment := AIDeployment.GetDefault();
         Rec.Insert();
 
         Rec.Init();
         rec.Attempt := 2;
         Rec.SetSystemPrompt('The user will ask a joke, you need to tell one.');
         rec.SetUserPrompt('Tell me a joke of the day');
+        Rec.Deployment := AIDeployment.GetDefault();
         rec.Insert();
 
         Rec.Init();
@@ -262,6 +266,7 @@ page 53300 "AI Studio"
             + ' '
             + 'The current item that needs to be checked is: '
             + '1=''1896-S''|2=''''|3=''ATHENE Tafel''|4=''ATHENE TAFEL''|5=''''|8=''STUKS''|11=''TEST''.');
+        Rec.Deployment := AIDeployment.GetDefault();
         Rec.Insert();
 
         Rec.Get(1);
