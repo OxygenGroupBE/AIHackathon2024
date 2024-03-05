@@ -33,11 +33,11 @@ codeunit 56162 "AI Deployment Factory"
     var
         enumValue: Integer;
     begin
-        enumValue := enum::"AI Deployment".Ordinals().IndexOf(AIDeployment.Deployment.AsInteger());
+        enumValue := enum::"AI Deployment".Ordinals().IndexOf(GetInterface().Deployment.AsInteger());
         exit(enum::"AI Deployment".Names().Get(enumValue));
     end;
-    
-        procedure GetEndpoint() Endpoint: Text
+
+    procedure GetEndpoint() Endpoint: Text
     begin
         exit(GetInterface().Endpoint);
     end;
