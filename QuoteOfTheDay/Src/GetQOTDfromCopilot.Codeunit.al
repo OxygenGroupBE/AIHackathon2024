@@ -76,6 +76,7 @@ codeunit 55162 "Get QOTD from Copilot"
         // These funtions in the "Azure Open AI" codeunit will be available in Business Central online later this year.
         // You will need to use your own key for Azure OpenAI for all your Copilot features (for both development and production).        
         AIDeploymentFactory.Initialize();
+        AIDeploymentFactory.SetInterface(enum::"AI Deployment"::"gpt-35-turbo");
         AzureOpenAI.SetAuthorization(Enum::"AOAI Model Type"::"Chat Completions",
             AIDeploymentFactory.GetEndpoint(),
             AIDeploymentFactory.GetDeployment(),
